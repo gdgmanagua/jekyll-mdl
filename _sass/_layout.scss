@@ -1,4 +1,15 @@
 .page-content{
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
+.mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('../img/welcome_card.jpg') center / cover;
+}
+
+.mdl-card__menu {
+  color: #fff;
+}
+

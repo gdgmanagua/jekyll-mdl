@@ -6,6 +6,7 @@
       <h1 class="mdl-mega-footer--heading">INFO</h1>
       <ul class="mdl-mega-footer--link-list">
         <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">subscribe via RSS</a></li>
       </ul>
     </div>
 
@@ -39,7 +40,7 @@
             <span class="username">{{ site.twitter_username }}</span>
           </a>
         </li>
-        {% endif %}
+      {% endif %}
       </ul>
     </div>
 
