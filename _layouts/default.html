@@ -5,16 +5,21 @@
 
   <body>
 
-    {% include header.html %}
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+      {% include header.html %}
+
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          {{ content }}
+        </div>
+      </main>
+
+      {% include footer.html %}
+      
     </div>
 
-    {% include footer.html %}
-
+    <!-- Material Design Lite js Library -->
     <script type="text/javascript" src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
 
   </body>
