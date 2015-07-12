@@ -7,17 +7,15 @@
 
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       {% include header.html %}
+
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          {{ content }}
+        </div>
+        {% include footer.html %}
+      </main>
+
     </div>
-
-    <main class="mdl-layout__content">
-      <div class="page-content">
-        {{ content }}
-      </div>
-    </main>
-
-
-    {% include footer.html %}
-
     <!-- Material Design Lite js Library -->
     <script type="text/javascript" src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
 
