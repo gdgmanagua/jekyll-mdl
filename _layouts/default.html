@@ -15,6 +15,9 @@
 
       <main class="mdl-layout__content">
         <div class="page-content">
+          {% if site.post_type == 'highlight' %}
+          {% include highlight_post.html %}
+          {% endif %}
           {{ content }}
         </div>
         {% include footer.html %}
