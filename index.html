@@ -2,9 +2,17 @@
 layout: default
 ---
 
-<div class="mdl-grid">
-  {% for post in site.posts %}
-  <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
+{% if paginator.page %}
+   {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
+   {% assign currentPage = paginator.page %}
+ {% else %}
+  {% assign offset = 0 %}
+  {% assign currentPage = 1 %}
+{% endif %}
+
+<div class="mdl-grid" id="js-post-container" data-page="{{ currentPage }}" data-total-pages="{{ paginator.total_pages }}">
+  {% for post in site.posts limit:site.paginate offset:offset %}
+  <article class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
     <div class="mdl-card__title">
       <h2 class="mdl-card__title-text">{{ post.title }}</h2>
     </div>
@@ -24,6 +32,14 @@ layout: default
         <i class="material-icons">share</i>
       </button>
     </div>
-  </div>
+  </article>
   {% endfor %}
+
+ {% assign postCount = site.posts | size %}
+ {% assign postsCovered = site.paginate | plus:offset %}
+ {% if postsCovered < postCount %}
+   <button id="js-load-more">Load more posts</button>
+ {% endif %}
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+ <script rel="javascript" src="{{ "/js/site.js" | prepend: site.baseurl }}"></script>
 </div>

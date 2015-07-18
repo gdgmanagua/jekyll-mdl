@@ -13,5 +13,9 @@ github_username:  jekyll
 # Layout settings
 header_type: fixed
 post_type: highlight
+
 # Build settings
 markdown: kramdown
+
+# Pagination
+paginate: 3
