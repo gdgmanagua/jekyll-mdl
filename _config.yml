@@ -11,7 +11,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Layout settings
-header_type: fixed
-post_type: highlight
+header_type: default  # values [ drawer, default ]
+post_type: default    # values [ highlight, default ]
 # Build settings
 markdown: kramdown
