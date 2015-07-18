@@ -20,9 +20,14 @@ layout: default
       </a>
     </div>
     <div class="mdl-card__menu">
-      <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+      <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-{{ post.id }}">
         <i class="material-icons">share</i>
       </button>
+      <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="post-{{ post.id }}">
+        <li class="mdl-menu__item">Facebook</li>
+        <li class="mdl-menu__item">Twitter</li>
+        <li class="mdl-menu__item">Google+</li>
+      </ul>
     </div>
   </div>
   {% endfor %}
