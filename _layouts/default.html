@@ -26,7 +26,9 @@
     </div>
     <!-- Material Design Lite js Library -->
     <script type="text/javascript" src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
-
+    {% if site.pagination_type == 'ops' %}
+    <script rel="javascript" src="{{ "/js/site.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
   </body>
 
 </html>
