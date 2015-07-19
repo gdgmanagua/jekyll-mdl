@@ -38,8 +38,9 @@ layout: default
  {% assign postCount = site.posts | size %}
  {% assign postsCovered = site.paginate | plus:offset %}
  {% if postsCovered < postCount %}
-   <button id="js-load-more">Load more posts</button>
+   <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" id="js-load-more">
+     <i class="material-icons">add</i>
+   </button>
  {% endif %}
- <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
  <script rel="javascript" src="{{ "/js/site.js" | prepend: site.baseurl }}"></script>
 </div>
