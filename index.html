@@ -20,6 +20,16 @@ layout: default
       <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
         {{ post.date | date: "%b %-d, %Y" }}
       </a>
+
+      {% if post.author %}
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+        {{ post.author }}
+      </a>
+      {% endif %}
+
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+        {% for cat in post.categories %}{{ cat }}, {% endfor %}
+      </a>
     </div>
     <div class="mdl-card__menu">
       <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-{{ post.id }}">
@@ -52,6 +62,16 @@ layout: default
     <div class="mdl-card__actions mdl-card--border">
       <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
         {{ post.date | date: "%b %-d, %Y" }}
+      </a>
+
+      {% if post.author %}
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+        {{ post.author }}
+      </a>
+      {% endif %}
+
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+        {% for cat in post.categories %}{{ cat }}, {% endfor %}
       </a>
     </div>
     <div class="mdl-card__menu">
