@@ -17,6 +17,3 @@ pagination_type: default  # values [ ops, default ]
 
 # Build settings
 markdown: kramdown
-
-# Pagination
-paginate: 3
