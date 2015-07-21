@@ -3,7 +3,7 @@
 
 ## Sites using jekyll-mdl
 
-If you are using this cool jekyll theme, please open an issue or fork the project, add your site to the list and send a pull request, we will be happy to know where the theme are using.
+If you are using this cool jekyll theme, please open an issue or fork the project, add your site to the list and send a pull request, we will be happy to know where the theme has been used.
 
 - [fandekasp.github.io](http://fandekasp.github.io/)
 
