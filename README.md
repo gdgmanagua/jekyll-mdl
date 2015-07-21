@@ -5,7 +5,7 @@
 
 You can see the online demo here [www.gdgmanagua.org/jekyll-mdl](http://www.gdgmanagua.org/jekyll-mdl)
 
-![Demo](https://raw.githubusercontent.com/gdg-managua/jekyll-mdl/blob/master/jekyll-mdl-screen.png)
+![Demo](https://raw.githubusercontent.com/gdg-managua/jekyll-mdl/master/jekyll-mdl-screen.png)
 
 ## Sites using jekyll-mdl
 

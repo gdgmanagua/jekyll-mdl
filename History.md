@@ -1,4 +1,5 @@
 # (July 21, 2015)
+* Fix broken link with image demo
 * Add demo links to the README.md
 * Small typo fix
 * Add links in the post date

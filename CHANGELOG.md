@@ -1,6 +1,7 @@
 1.0.0 / 2015-07-21
 ==================
 
+* Fix broken link with image demo
 * Add demo links to the README.md
 * Small typo fix
 * Add links in the post date
