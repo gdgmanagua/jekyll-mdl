@@ -1,6 +1,20 @@
 # jekyll-mdl
 > A Jekyll theme based in Google Material Design Lite library.
 
+## Sites using jekyll-mdl
+
+If you are using this cool jekyll theme, please open an issue or fork the project, add your site to the list and send a pull request, we will be happy to know where the theme are using.
+
+- [fandekasp.github.io](http://fandekasp.github.io/)
+
+## Custom Themes
+
+If you don't want the default site colors, you can create custom themes for the site in the [mdl theme creator](http://www.getmdl.io/customize/index.html). The site will create a custom css, something like this:
+
+     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.teal-green.min.css" />
+
+Now add this in the _includes/head.html file, under the main css and enjoy your new theme.
+
 ## Post Options
 
 All the post, require an image and maybe an author, the image are used in the cards and the autor used for the footer in the cards. For use the images and author, just add a new key in the post config, something like this:
@@ -42,9 +56,6 @@ If you want to contribute to this project, please read the [CONTRIBUTING](https:
 ---|---
 [Oscar Cortez](http://github.com/oscarmcm) | [Byron Corrales](https://github.com/byroncorrales)
 Project Lead | Contributor
-
-## Sites using jekyll-mdl
-[fandekasp.github.io](http://fandekasp.github.io/)
 
 ## License
 Licensed under the Apache 2.0 license.
