@@ -1,8 +1,8 @@
-  <header class="mdl-layout__header mdl-layout__header--waterfall">
+  <header class="mdl-layout__header">
 
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">{{ site.title }}</span>
+      <a class="mdl-layout-title" href="{{ site.url }}">{{ site.title }}</a>
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation. We hide it in small screens. -->
@@ -37,8 +37,7 @@
   </header>
 
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title"><a href="#">{{ site.title }}</a></span>
-
+    <span class="mdl-layout-title">Menu</span>
     <nav class="mdl-navigation">
     {% for page in site.pages %}
       {% if page.title %}
