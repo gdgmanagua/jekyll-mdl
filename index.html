@@ -46,9 +46,7 @@ layout: default
   </div>
   {% endfor %}
 
-
 {% else %}
-
 
   {% for post in site.posts %}
   <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
@@ -58,7 +56,7 @@ layout: default
     <div class="mdl-card__supporting-text">
       {{ post.excerpt }}
     </div>
-    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
+    <button class="post-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
       <i class="material-icons">keyboard_arrow_right</i>
     </button>
     <div class="mdl-card__actions mdl-card--border">
@@ -88,6 +86,5 @@ layout: default
     </div>
   </div>
   {% endfor %}
-
 
 {% endif %}
