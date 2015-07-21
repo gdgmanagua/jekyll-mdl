@@ -1,7 +1,7 @@
 # jekyll-mdl
 > A Jekyll theme based in Google Material Design Lite library.
 
-## Post Configs
+## Post Options
 
 All the post, require an image and maybe an author, the image are used in the cards and the autor used for the footer in the cards. For use the images and author, just add a new key in the post config, something like this:
 
@@ -14,7 +14,7 @@ All the post, require an image and maybe an author, the image are used in the ca
     author: Google Developers Group Managua
     ---
 
-## Layout Configs
+## Layout Configuration
 You can setup 4 types of layout
 
 - Fixed Nav + Simple Card Grid
@@ -41,6 +41,10 @@ If you want to contribute to this project, please read the [CONTRIBUTING](https:
 [![Oscar Cortez](https://avatars.githubusercontent.com/u/2553459?v=3&s=100)](http://github.com/oscarmcm) | [![Byron Corrales](https://avatars.githubusercontent.com/u/99616?v=3&s=100)](https://github.com/byroncorrales)
 ---|---
 [Oscar Cortez](http://github.com/oscarmcm) | [Byron Corrales](https://github.com/byroncorrales)
+Project Lead | Contributor
+
+## Sites using jekyll-mdl
+[fandekasp.github.io](http://fandekasp.github.io/)
 
 ## License
 Licensed under the Apache 2.0 license.
