@@ -1,7 +1,15 @@
+//
+// Generals styles for material design light elements
+//
+
+// Page container
+
 .page-content{
   max-width: 1200px;
   margin: 0 auto;
 }
+
+// Cards styles
 
 .mdl-card__title {
   color: #fff;
@@ -18,6 +26,8 @@
   right: 15px;
   bottom: 25px;
 }
+
+// Index highlight card
 
 .section-highlight {
   position: relative;
