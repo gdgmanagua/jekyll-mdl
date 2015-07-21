@@ -1,70 +1,75 @@
 ---
 layout: default
 ---
+<div class="page-content">
+  <div class="mdl-grid">
+  {% if site.post_type == 'highlight' %}
 
-{% if site.post_type == 'highlight' %}
+    {% include highlight_post.html %}
 
-  {% include highlight_post.html %}
+    {% for post in site.posts offset:1 %}
 
-  {% for post in site.posts offset:1 %}
-
-  <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
-    <div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}>
-      <h2 class="mdl-card__title-text">{{ post.title }}</h2>
-    </div>
-    <div class="mdl-card__supporting-text">
-      {{ post.excerpt }}
-    </div>
-    <button class="post-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
-      <i class="material-icons">keyboard_arrow_right</i>
-    </button>
-    <div class="mdl-card__actions mdl-card--border">
-      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-        {{ post.date | date: "%b %-d, %Y" }}
-      </a>
-    </div>
-    <div class="mdl-card__menu">
-      <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-{{ post.id }}">
-        <i class="material-icons">share</i>
+    <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
+      <div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}>
+        <h2 class="mdl-card__title-text">{{ post.title }}</h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+        {{ post.excerpt }}
+      </div>
+      <button class="post-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
+        <i class="material-icons">keyboard_arrow_right</i>
       </button>
-      <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="post-{{ post.id }}">
-        <li class="mdl-menu__item">Facebook</li>
-        <li class="mdl-menu__item">Twitter</li>
-        <li class="mdl-menu__item">Google+</li>
-      </ul>
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+          {{ post.date | date: "%b %-d, %Y" }}
+        </a>
+      </div>
+      <div class="mdl-card__menu">
+        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-{{ post.id }}">
+          <i class="material-icons">share</i>
+        </button>
+        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="post-{{ post.id }}">
+          <li class="mdl-menu__item">Facebook</li>
+          <li class="mdl-menu__item">Twitter</li>
+          <li class="mdl-menu__item">Google+</li>
+        </ul>
+      </div>
     </div>
-  </div>
-  {% endfor %}
+    {% endfor %}
 
-{% else %}
+  {% else %}
 
-  {% for post in site.posts %}
-  <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
-    <div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}>
-      <h2 class="mdl-card__title-text">{{ post.title }}</h2>
-    </div>
-    <div class="mdl-card__supporting-text">
-      {{ post.excerpt }}
-    </div>
-    <button class="post-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
-      <i class="material-icons">keyboard_arrow_right</i>
-    </button>
-    <div class="mdl-card__actions mdl-card--border">
-      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-        {{ post.date | date: "%b %-d, %Y" }}
-      </a>
-    </div>
-    <div class="mdl-card__menu">
-      <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-{{ post.id }}">
-        <i class="material-icons">share</i>
+    {% for post in site.posts %}
+
+    <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
+      <div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}>
+        <h2 class="mdl-card__title-text">{{ post.title }}</h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+        {{ post.excerpt }}
+      </div>
+      <button class="post-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
+        <i class="material-icons">keyboard_arrow_right</i>
       </button>
-      <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="post-{{ post.id }}">
-        <li class="mdl-menu__item">Facebook</li>
-        <li class="mdl-menu__item">Twitter</li>
-        <li class="mdl-menu__item">Google+</li>
-      </ul>
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+          {{ post.date | date: "%b %-d, %Y" }}
+        </a>
+      </div>
+      <div class="mdl-card__menu">
+        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-{{ post.id }}">
+          <i class="material-icons">share</i>
+        </button>
+        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="post-{{ post.id }}">
+          <li class="mdl-menu__item">Facebook</li>
+          <li class="mdl-menu__item">Twitter</li>
+          <li class="mdl-menu__item">Google+</li>
+        </ul>
+      </div>
     </div>
-  </div>
-  {% endfor %}
 
-{% endif %}
+    {% endfor %}
+
+  {% endif %}
+  </div>
+</div>
