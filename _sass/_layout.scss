@@ -13,8 +13,15 @@
   color: #fff;
 }
 
+.post-button{
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+}
+
 .section-highlight {
   position: relative;
+  margin: 10px;
 
   .mdl-card__supporting-text {
     margin: 40px;

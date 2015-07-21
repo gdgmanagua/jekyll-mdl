@@ -5,6 +5,7 @@
 
   <body>
 
+    <!-- Start Layout -->
     {% if site.header_type == 'drawer' %}
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer">
       {% include header_fixed.html %}
@@ -15,15 +16,16 @@
 
       <main class="mdl-layout__content">
         <div class="page-content">
-          {% if site.post_type == 'highlight' %}
-          {% include highlight_post.html %}
-          {% endif %}
-          {{ content }}
+          <div class="mdl-grid">
+            {{ content }}
+          </div>
         </div>
         {% include footer.html %}
       </main>
 
     </div>
+    <!-- /End Layout-->
+
     <!-- Material Design Lite js Library -->
     <script type="text/javascript" src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
     {% if site.pagination_type == 'ops' %}
