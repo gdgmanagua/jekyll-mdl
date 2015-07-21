@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% if site.post_type == 'highlight' %}
-  
+
   {% include highlight_post.html %}
 
   {% for post in site.posts offset:1 %}
@@ -21,16 +21,6 @@ layout: default
     <div class="mdl-card__actions mdl-card--border">
       <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
         {{ post.date | date: "%b %-d, %Y" }}
-      </a>
-
-      {% if post.author %}
-      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-        {{ post.author }}
-      </a>
-      {% endif %}
-
-      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-        {% for cat in post.categories %}{{ cat }}, {% endfor %}
       </a>
     </div>
     <div class="mdl-card__menu">
@@ -62,16 +52,6 @@ layout: default
     <div class="mdl-card__actions mdl-card--border">
       <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
         {{ post.date | date: "%b %-d, %Y" }}
-      </a>
-
-      {% if post.author %}
-      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-        {{ post.author }}
-      </a>
-      {% endif %}
-
-      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-        {% for cat in post.categories %}{{ cat }}, {% endfor %}
       </a>
     </div>
     <div class="mdl-card__menu">
