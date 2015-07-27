@@ -25,8 +25,17 @@
     <!-- Material Design Lite js Library -->
     <script type="text/javascript" src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
     {% if site.pagination_type == 'ops' %}
-    <script rel="javascript" src="{{ "/js/site.js" | prepend: site.baseurl }}"></script>
+    <script rel="javascript" type="text/javascript" src="{{ "/js/site.js" | prepend: site.baseurl }}"></script>
     {% endif %}
+    <script rel="javascript" type="text/javascript" src="{{ "/js/search.js" | prepend: site.baseurl }}"></script>
+    <script rel="javascript" type="text/javascript">
+      mdlSearch({
+        searchFile: '/feed.xml',
+        searchSelector: '#js-search', // CSS Selector for search container element.
+        inputSelector: '#search-field', // CSS selector for <input>
+        resultsSelector: '#js-search__results' // CSS selector for results container
+      });
+    </script>
   </body>
 
 </html>
