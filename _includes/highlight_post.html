@@ -17,9 +17,9 @@
     <i class="material-icons">more_vert</i>
   </button>
   <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn-high">
-    <li class="mdl-menu__item">Facebook</li>
-    <li class="mdl-menu__item">Twitter</li>
-    <li class="mdl-menu__item">Google+</li>
+    <li><a href="https://www.facebook.com/dialog/share?app_id={app_id}&display=page&href={{ post.url | prepend: site.baseurl }}&redirect_uri={{ site.baseurl }}" class="mdl-menu__item">Facebook</a></li>
+    <li><a href="https://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ post.title }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
+    <li><a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" class="mdl-menu__item">Google+</a></li>
   </ul>
 
 </div>
