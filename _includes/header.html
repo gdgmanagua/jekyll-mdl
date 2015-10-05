@@ -5,22 +5,15 @@
       <span class="mdl-layout-title">{{ site.title }}</span>
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
-      <!-- Navigation. We hide it in small screens. -->
-      <nav class="mdl-navigation mdl-layout--large-screen-only">
-      {% for page in site.pages %}
-        {% if page.title %}
-        <a class="mdl-navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}
-      {% endfor %}
-      </nav>
+      
 
-      <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
-        <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable is-upgraded">
+        <label class="mdl-button mdl-js-button mdl-button--icon" for="js-search__input">
           <i class="material-icons">search</i>
         </label>
-        <div class="mdl-textfield__expandable-holder" id="js-search">
-          <input class="mdl-textfield__input" type="text" id="search-field" />
-          <ul class="super-search__results" id="js-search__results"></ul>
+
+        <div class="mdl-textfield__expandable-holder" >
+          <input class="mdl-textfield__input super-search__input" type="text" id="js-search__input" />
         </div>
       </div>
 

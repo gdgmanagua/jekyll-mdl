@@ -11,6 +11,7 @@
       {% include header_fixed.html %}
     {% else %}
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      {% include search_result.html %}
       {% include header.html %}
     {% endif %}
 
@@ -20,7 +21,7 @@
       </main>
 
     </div>
-    <!-- /End Layout-->
+    <!-- /End Layout -->
 
     <!-- Material Design Lite js Library -->
     <script type="text/javascript" src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
@@ -29,10 +30,10 @@
     {% endif %}
     <script rel="javascript" type="text/javascript" src="{{ "/js/search.js" | prepend: site.baseurl }}"></script>
     <script rel="javascript" type="text/javascript">
-      mdlSearch({
+      superSearch({
         searchFile: '/feed.xml',
         searchSelector: '#js-search', // CSS Selector for search container element.
-        inputSelector: '#search-field', // CSS selector for <input>
+        inputSelector: '#js-search__input', // CSS selector for <input>
         resultsSelector: '#js-search__results' // CSS selector for results container
       });
     </script>
