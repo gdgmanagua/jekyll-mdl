@@ -1,5 +1,8 @@
 # Change Log
 
+## [v1.4.1](https://github.com/gdg-managua/jekyll-mdl/tree/v1.4.1) (2015-10-05)
+[Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.4.0...v1.4.1)
+
 ## [v1.4.0](https://github.com/gdg-managua/jekyll-mdl/tree/v1.4.0) (2015-10-05)
 [Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.3.0...v1.4.0)
 
