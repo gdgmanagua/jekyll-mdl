@@ -8,6 +8,7 @@
     <!-- Start Layout -->
     {% if site.header_type == 'drawer' %}
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer">
+      {% include search_result.html %}
       {% include header_fixed.html %}
     {% else %}
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
