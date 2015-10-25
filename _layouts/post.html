@@ -13,6 +13,13 @@ layout: default
       <article class="post-content">
         <p>{{ content }}</p>
       </article>
+      <!-- Disqus comments -->
+      {% if site.disqus %}
+      <div>
+        <h3>Comments</h3>
+        {% include disqus.html %}
+      </div>
+      {% endif %}
     </div>
   </div>
 </main>

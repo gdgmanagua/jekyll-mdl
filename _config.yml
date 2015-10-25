@@ -26,5 +26,8 @@ more_vert:
     name: Cool Option 3
     link: www.myawesomelink.com
 
+disqus: true
+disqus_shortname: 'gdgmanagua'
+
 # Build settings
 markdown: kramdown
