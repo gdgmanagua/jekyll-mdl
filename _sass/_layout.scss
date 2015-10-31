@@ -10,15 +10,18 @@
 }
 
 // Cards styles
+.mdl-card {
+  .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../img/welcome_card.jpg') center / cover;
+  }
 
-.mdl-card__title {
-  color: #fff;
-  height: 176px;
-  background: url('../img/welcome_card.jpg') center / cover;
-}
+  .mdl-card__supporting-text > span { color: #9F9F9F; }
 
-.mdl-card__menu {
-  color: #fff;
+  .mdl-card__menu {
+    color: #fff;
+  }
 }
 
 .post-button{

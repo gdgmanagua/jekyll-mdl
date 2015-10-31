@@ -15,7 +15,7 @@ layout: default
       <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
         <div class="mdl-card__supporting-text">
           <h4>{{ post.title }}</h4>
-          {{ post.excerpt }}
+          <p>{{ post.excerpt }}</p>
         </div>
         <div class="mdl-card__actions">
           <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
@@ -35,20 +35,16 @@ layout: default
 
     {% else %}
 
-    <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
+    <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone">
       <div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}>
         <h2 class="mdl-card__title-text">{{ post.title }}</h2>
       </div>
       <div class="mdl-card__supporting-text">
-        {{ post.excerpt }}
+        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p>{{ post.excerpt }}</p>
       </div>
-      <button class="post-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
-        <i class="material-icons">keyboard_arrow_right</i>
-      </button>
       <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.baseurl }}">
-          {{ post.date | date: "%b %-d, %Y" }}
-        </a>
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
       </div>
       <div class="mdl-card__menu">
         <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-{{ post.id }}">
@@ -73,14 +69,12 @@ layout: default
         <h2 class="mdl-card__title-text">{{ post.title }}</h2>
       </div>
       <div class="mdl-card__supporting-text">
-        {{ post.excerpt }}
+        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p>{{ post.excerpt }}</p>
       </div>
-      <button class="post-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
-        <i class="material-icons">keyboard_arrow_right</i>
-      </button>
       <div class="mdl-card__actions mdl-card--border">
         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.baseurl }}">
-          {{ post.date | date: "%b %-d, %Y" }}
+          Read More
         </a>
       </div>
       <div class="mdl-card__menu">
