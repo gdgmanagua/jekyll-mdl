@@ -1,5 +1,32 @@
 # Change Log
 
+## [v1.6.0](https://github.com/gdg-managua/jekyll-mdl/tree/v1.6.0) (2015-11-01)
+
+[Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.5.0...v1.6.0)
+
+**Implemented enhancements:**
+
+- Unconventional use of floating action button [\#23](https://github.com/gdg-managua/jekyll-mdl/issues/23)
+
+**Fixed bugs:**
+
+- Unconventional use of floating action button [\#23](https://github.com/gdg-managua/jekyll-mdl/issues/23)
+
+**Merged pull requests:**
+
+- JKM-23 fix Unconventional use of floating action button [\#24](https://github.com/gdg-managua/jekyll-mdl/pull/24) ([oscarmcm](https://github.com/oscarmcm))
+
+## [v1.5.0](https://github.com/gdg-managua/jekyll-mdl/tree/v1.5.0) (2015-10-25)
+[Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.4.1...v1.5.0)
+
+**Fixed bugs:**
+
+- Search not work in drawer mode [\#21](https://github.com/gdg-managua/jekyll-mdl/issues/21)
+
+**Merged pull requests:**
+
+- JKM-4 add support for disqus comments [\#22](https://github.com/gdg-managua/jekyll-mdl/pull/22) ([oscarmcm](https://github.com/oscarmcm))
+
 ## [v1.4.1](https://github.com/gdg-managua/jekyll-mdl/tree/v1.4.1) (2015-10-05)
 [Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.4.0...v1.4.1)
 
