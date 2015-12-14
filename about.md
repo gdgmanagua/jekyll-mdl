@@ -61,10 +61,6 @@ If you want to contribute to this project, please read the [CONTRIBUTING](https:
     git push -u origin feature_branch
     # Send a pull request for your feature branch
 
-###### Team
-[![Oscar Cortez](https://avatars.githubusercontent.com/u/2553459?v=3&s=100)](http://github.com/oscarmcm)
-[![Byron Corrales](https://avatars.githubusercontent.com/u/99616?v=3&s=100)](https://github.com/byroncorrales)
-
 ###### License
 Licensed under the Apache 2.0 license.
 
