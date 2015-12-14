@@ -1,5 +1,14 @@
 # Change Log
 
+## [v1.8.0](https://github.com/gdg-managua/jekyll-mdl/tree/v1.8.0)
+
+[Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.7.0...v1.8.0)
+
+**Fixed bugs:**
+
+- Bug in about page [\#28](https://github.com/gdg-managua/jekyll-mdl/issues/28)
+- the img style of about page is too large. [\#27](https://github.com/gdg-managua/jekyll-mdl/issues/27)
+
 ## [v1.7.0](https://github.com/gdg-managua/jekyll-mdl/tree/v1.7.0) (2015-11-16)
 [Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.6.0...v1.7.0)
 
