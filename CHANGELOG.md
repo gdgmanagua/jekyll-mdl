@@ -1,7 +1,17 @@
 # Change Log
 
-## [v1.8.0](https://github.com/gdg-managua/jekyll-mdl/tree/v1.8.0)
+## [v1.8.1](https://github.com/gdg-managua/jekyll-mdl/tree/v1.8.1) (2016-01-07)
+[Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.8.0...v1.8.1)
 
+**Fixed bugs:**
+
+- Multiple highlighted posts breaks share button [\#31](https://github.com/gdg-managua/jekyll-mdl/issues/31)
+
+**Merged pull requests:**
+
+- JKM-31 Fix share button in highlight post \#31 [\#32](https://github.com/gdg-managua/jekyll-mdl/pull/32) ([oscarmcm](https://github.com/oscarmcm))
+
+## [v1.8.0](https://github.com/gdg-managua/jekyll-mdl/tree/v1.8.0) (2015-12-14)
 [Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.7.0...v1.8.0)
 
 **Fixed bugs:**
