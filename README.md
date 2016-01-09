@@ -11,6 +11,7 @@ You can see the online demo here [www.gdgmanagua.org/jekyll-mdl](http://www.gdgm
 
 If you are using this cool jekyll theme, please open an issue or fork the project, add your site to the list and send us a pull request, we will be happy to know where the theme has been used.
 
+- [prosa100.github.io](http://prosa100.github.io/)
 - [fandekasp.github.io](http://fandekasp.github.io/)
 
 ## Custom Themes
