@@ -1,5 +1,25 @@
 # Change Log
 
+## [Unreleased](https://github.com/gdg-managua/jekyll-mdl/tree/HEAD)
+
+## [v1.9.0](https://github.com/gdg-managua/jekyll-mdl/tree/v1.9.0) (2016-01-09)
+[Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.8.1...v1.9.0)
+
+**Implemented enhancements:**
+
+- Add Facebook app\_id to \_config.yml [\#37](https://github.com/gdg-managua/jekyll-mdl/pull/37) ([JmzTaylor](https://github.com/JmzTaylor))
+- Explicitly define height as auto [\#36](https://github.com/gdg-managua/jekyll-mdl/pull/36) ([JmzTaylor](https://github.com/JmzTaylor))
+- Add G+ and Google Play social links [\#35](https://github.com/gdg-managua/jekyll-mdl/pull/35) ([JmzTaylor](https://github.com/JmzTaylor))
+
+**Closed issues:**
+
+- Nested lists don't work [\#33](https://github.com/gdg-managua/jekyll-mdl/issues/33)
+
+**Merged pull requests:**
+
+- Remove unused vars \#34 [\#40](https://github.com/gdg-managua/jekyll-mdl/pull/40) ([oscarmcm](https://github.com/oscarmcm))
+- added site to list. [\#38](https://github.com/gdg-managua/jekyll-mdl/pull/38) ([prosa100](https://github.com/prosa100))
+
 ## [v1.8.1](https://github.com/gdg-managua/jekyll-mdl/tree/v1.8.1) (2016-01-07)
 [Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.8.0...v1.8.1)
 
