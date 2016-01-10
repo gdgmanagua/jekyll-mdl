@@ -4,7 +4,7 @@ MIT Licensed
 */
 
 .super-search {
-  background-color: rgba(0, 191, 255, 0.85);
+  background-color: $super-search;
   z-index: 999;
   transition: 0.2s ease;
   visibility: hidden;

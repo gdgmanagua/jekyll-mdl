@@ -8,9 +8,7 @@
 @charset "utf-8";
 
 $spacing-unit:     30px;
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$super-search:     rgba(0, 191, 255, 0.85);
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
