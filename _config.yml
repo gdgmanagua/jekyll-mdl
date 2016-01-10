@@ -9,6 +9,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
+google_play: 'Jmz Software'
+google_plus_com: '102719927712912982993'  # Community link
+google_plus_per: '+JamesTaylor3'  #Personal link
 
 # Layout settings
 header_type: default  # values [ drawer, default ]
