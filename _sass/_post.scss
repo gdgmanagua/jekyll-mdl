@@ -11,6 +11,8 @@
 
 .post-main {
   margin-top: -35vh;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
   flex-shrink: 0;
 
   .post-container {
@@ -29,4 +31,10 @@
     }
   }
 
+  .post-content {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
 }

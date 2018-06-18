@@ -8,25 +8,34 @@
     <!-- Start Layout -->
     {% if site.header_type == 'drawer' %}
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer">
+      {% include search_result.html %}
       {% include header_fixed.html %}
     {% else %}
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      {% include search_result.html %}
       {% include header.html %}
     {% endif %}
 
-      <main class="mdl-layout__content">
-        {{ content }}
-        {% include footer.html %}
-      </main>
+    {{ content }}
+    {% include footer.html %}
 
     </div>
-    <!-- /End Layout-->
+    <!-- /End Layout -->
 
     <!-- Material Design Lite js Library -->
     <script type="text/javascript" src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
     {% if site.pagination_type == 'ops' %}
-    <script rel="javascript" src="{{ "/js/site.js" | prepend: site.baseurl }}"></script>
+    <script rel="javascript" type="text/javascript" src="{{ "/js/site.js" | prepend: site.baseurl }}"></script>
     {% endif %}
+    <script rel="javascript" type="text/javascript" src="{{ "/js/search.js" | prepend: site.baseurl }}"></script>
+    <script rel="javascript" type="text/javascript">
+      superSearch({
+        searchFile: '/feed.xml',
+        searchSelector: '#js-search', // CSS Selector for search container element.
+        inputSelector: '#js-search__input', // CSS selector for <input>
+        resultsSelector: '#js-search__results' // CSS selector for results container
+      });
+    </script>
   </body>
 
 </html>

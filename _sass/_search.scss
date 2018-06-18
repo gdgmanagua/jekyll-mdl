@@ -1,0 +1,57 @@
+/* super-search
+Author: Kushagra Gour (http://kushagragour.in)
+MIT Licensed
+*/
+
+.super-search {
+  background-color: $super-search;
+  z-index: 999;
+  transition: 0.2s ease;
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  will-change: transform, opacity;
+}
+.super-search__close-btn {
+  float: right;
+  margin-right: 15px;
+}
+.super-search__input {
+  transition: 0.15s ease-out 150ms;
+}
+.is-active .super-search__input {
+  transform: translateY(0);
+}
+.super-search__results {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  overflow-x: hidden;
+  height: calc(100% - 110px);
+  transition: 0.2s ease;
+}
+.super-search__results.is-hidden {
+  opacity: 0;
+  transform: translateY(-1vh);
+}
+
+.super-search__results > li > a {
+  display: block;
+  position: relative;
+  background-color: #f9f9f9;
+  color: #666;
+  padding: 17px;
+  margin: 12px 14px;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.1);
+}
+.super-search__result-date {
+  color: #BBB;
+  position: absolute;
+  right: 12px;
+}
+.super-search.is-active {
+  opacity: 1;
+  visibility: visible;
+}

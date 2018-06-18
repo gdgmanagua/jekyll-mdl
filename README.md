@@ -3,7 +3,7 @@
 
 ## Demo
 
-You can see the online demo here [www.gdgmanagua.org/jekyll-mdl](http://www.gdgmanagua.org/jekyll-mdl)
+You can see the online demo here [http://gdgmanagua.github.io/jekyll-mdl](http://www.gdgmanagua.org/jekyll-mdl)
 
 ![Demo](https://raw.githubusercontent.com/gdg-managua/jekyll-mdl/master/jekyll-mdl-screen.png)
 
@@ -11,7 +11,12 @@ You can see the online demo here [www.gdgmanagua.org/jekyll-mdl](http://www.gdgm
 
 If you are using this cool jekyll theme, please open an issue or fork the project, add your site to the list and send us a pull request, we will be happy to know where the theme has been used.
 
+- [prosa100.github.io](http://prosa100.github.io/)
 - [fandekasp.github.io](http://fandekasp.github.io/)
+- [webiphany.com](http://webiphany.com)
+- [siempredelao.github.io](http://siempredelao.github.io/)
+- [sparker0i.github.io](http://sparker0i.github.io/)
+- [kris27mc.github.io](https://kris27mc.github.io)
 
 ## Custom Themes
 
@@ -23,13 +28,14 @@ Now add this in the _includes/head.html file, under the main css and enjoy your 
 
 ## Post Options
 
-All the post, require an image and maybe an author, the image are used in the cards and the autor used for the footer in the cards. For use the images and author, just add a new key in the post config, something like this:
+All the post, require an image and maybe an author and declare if the post is highlighted or not, the image are used in the cards and the autor used for the footer in the cards, the highlighted post is used for make this 12 cols and not a card, if you want to use the custom images and set the author and the highlight post, just add a new key in the post config, something like this:
 
     ---
     layout: post
     title:  "Welcome to jekyll-mdl"
     date:   2015-07-11 11:34:20
     categories: jekyll
+    highlight: true
     image: http://www.wchs4pets.org/wp-content/uploads/2015/03/cat_1-jpg.jpg
     author: Google Developers Group Managua
     ---

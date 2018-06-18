@@ -41,6 +41,46 @@
           </a>
         </li>
       {% endif %}
+	  {% if site.google_play %}
+        <li>
+          <a href="https://play.google.com/store/apps/developer?id={{ site.google_play }}">
+            <span class="icon  icon--googleplay">
+              <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                <path fill="#000000" d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
+              </svg>
+            </span>
+
+            <span class="username">Google Play</span>
+          </a>
+        </li>
+      {% endif %}
+      {% if site.google_plus_com %}
+        <li>
+          <a href="https://plus.google.com/communities/{{ site.google_plus_com }}">
+            <span class="icon  icon--googleplus_com">
+              <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+				<path fill="#000000" d="M20,2A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V4C2,2.89 2.9,2 4,2H20M20,12H18V10H17V12H15V13H17V15H18V13H20V12M9,11.29V13H11.86C11.71,13.71 11,15.14 9,15.14C7.29,15.14 5.93,13.71 5.93,12C5.93,10.29 7.29,8.86 9,8.86C10,8.86 10.64,9.29 11,9.64L12.36,8.36C11.5,7.5 10.36,7 9,7C6.21,7 4,9.21 4,12C4,14.79 6.21,17 9,17C11.86,17 13.79,15 13.79,12.14C13.79,11.79 13.79,11.57 13.71,11.29H9Z" />
+			  </svg>
+            </span>
+
+            <span class="username">Google Plus Community</span>
+          </a>
+        </li>
+      {% endif %}
+	  {% if site.google_plus_per %}
+        <li>
+          <a href="https://plus.google.com/u/0/{{ site.google_plus_per }}">
+            <span class="icon  icon--googleplus_per">
+              <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+				<path fill="#000000" d="M20,2A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V4C2,2.89 2.9,2 4,2H20M20,12H18V10H17V12H15V13H17V15H18V13H20V12M9,11.29V13H11.86C11.71,13.71 11,15.14 9,15.14C7.29,15.14 5.93,13.71 5.93,12C5.93,10.29 7.29,8.86 9,8.86C10,8.86 10.64,9.29 11,9.64L12.36,8.36C11.5,7.5 10.36,7 9,7C6.21,7 4,9.21 4,12C4,14.79 6.21,17 9,17C11.86,17 13.79,15 13.79,12.14C13.79,11.79 13.79,11.57 13.71,11.29H9Z" />
+			  </svg>
+            </span>
+
+            <span class="username">Google Plus Profile</span>
+          </a>
+        </li>
+      {% endif %}
+	  
       </ul>
     </div>
 
