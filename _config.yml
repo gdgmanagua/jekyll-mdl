@@ -14,6 +14,7 @@ google_play: 'GDGX'
 google_plus_com: '109485346959707049693'  # Community link
 google_plus_per: '+GDGManagua'  #Personal link
 facebook_app_id: 12345
+permalink: /:title/
 
 # Layout settings
 header_type: default  # values [ drawer, default ]
