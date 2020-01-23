@@ -23,7 +23,7 @@ layout: default
       </div>
 
       <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn-high-{{ post.id }}">
-        <i class="material-icons">more_vert</i>
+        <i class="material-icons">share</i>
       </button>
       <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn-high-{{ post.id }}">
         <li><a href="https://www.facebook.com/dialog/share?app_id={{site.facebook_app_id}}&display=page&href={{ post.url | prepend: site.url }}&redirect_uri={{ site.url }}" class="mdl-menu__item">Facebook</a></li>
