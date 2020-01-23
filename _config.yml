@@ -1,19 +1,17 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: TensorFlow User Group Kolkata
+email: tfugkol@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  TensorFlow User Group (TFUG) Kolkata is a local community for developers, researchers, users, and writers interested in ML. TFUG Kolkata's meetups are composed of events around ML and TF to share best practices, discuss the future technology road-map, upcoming features, technology pitfalls and the entire gamut of Google’s TF related panoramic technology landscape.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-facebook_username: jekyll
-google_play: 'GDGX'
-google_plus_com: '109485346959707049693'  # Community link
-google_plus_per: '+GDGManagua'  #Personal link
-facebook_app_id: 12345
+url: "https://tfugkol.github.io" # the base hostname & protocol for your site
+twitter_username: TFUGKol
+github_username:  tfugkol
+facebook_username: TFUGKol
+# google_play: 'GDGX'
+# google_plus_com: '109485346959707049693'  # Community link
+# google_plus_per: '+GDGManagua'  #Personal link
+# facebook_app_id: 12345
 permalink: /:title/
 
 # Layout settings
@@ -23,17 +21,17 @@ pagination_type: default  # values [ ops, default ]
 
 more_vert:
   option1:
-    name: Cool Option 1
-    link: www.myawesomelink.com
+    name: Feedback
+    link: /feedback
   option2:
-    name: Cool Option 2
-    link: www.myawesomelink.com
-  option3:
-    name: Cool Option 3
-    link: www.myawesomelink.com
+    name: View on GitHub
+    link: https://github.com/tfugkol/tfugkol.github.io
+  # option3:
+  #   name: Cool Option 3
+  #   link: www.myawesomelink.com
 
 disqus: true
-disqus_shortname: 'gdgmanagua'
+disqus_shortname: 'tfugkol'
 
 # Build settings
 markdown: kramdown
