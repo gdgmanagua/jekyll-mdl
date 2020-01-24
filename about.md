@@ -3,67 +3,30 @@ layout: page
 title: About
 permalink: /about/
 ---
-###### A Jekyll theme based in Google Material Design Lite library.
+TensorFlow User Group (TFUG) Kolkata is a local community for developers, researchers, users, and writers interested in ML. TFUG Kolkata's meetups are composed of events around ML and TF to share best practices, discuss the future technology road-map, upcoming features, technology pitfalls and the entire gamut of Google’s TF related panoramic technology landscape.
 
-This is the base Jekyll Material Design Lite theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Join our public Telegram group here: https://t.me/TFUGKol (https://t.me/TFUGKol?fbclid=IwAR09tthKfL-JkYEYZiV4zde0To1hQJPR0SihYGLEgbbA9wGUV8fMVUxxElo). This group will focus on general discussions around Machine Learning and TensorFlow. You are encouraged to join it. When you do so, don't forget to introduce yourself.
 
-You can find the source code for the Jekyll MDL theme at: [github.com/gdg-managua/jekyll-mdl](https://github.com/gdg-managua/jekyll-mdl)
+We have a forever open CFP: https://forms.gle/qrxZRARhjNx5e4e46. 
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+If you have a cool ML project to showcase or if you want to present on an ML topic at any of our events/meetups, then this CFP is for you. We will contact you if your session is deemed to be a fit.
 
-###### Sites using jekyll-mdl
 
-If you are using this cool jekyll theme, please open an issue or fork the project, add your site to the list and send a pull request, we will be happy to know where the theme are using.
+Disclaimer - TFUG Kolkata is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the TFUG program, visit https://www.tensorflow.org/community .
 
-[fandekasp.github.io](http://fandekasp.github.io/)
 
-###### Custom Themes
+In case of any questions/suggestions, feel free to email us at tfugkol@gmail.com.
 
-If you don't want the default site colors, you can create custom themes for the site in the [mdl theme creator](http://www.getmdl.io/customize/index.html). The site will create a custom css, something like this:
 
-     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.teal-green.min.css" />
+Follow us on Facebook: https://www.facebook.com/TFUGKol/
 
-Now add this in the _includes/head.html file, under the main css and enjoy your new theme.
+Follow us on Twitter: https://twitter.com/TFUGKol (https://twitter.com/KolTfug)
 
-###### Post Options
-
-All the post, require an image and maybe an author, the image are used in the cards and the autor used for the footer in the cards. For use the images and author, just add a new key in the post config, something like this:
-
-    ---
-    layout: post
-    title:  "Welcome to jekyll-mdl"
-    date:   2015-07-11 11:34:20
-    categories: jekyll
-    image: http://www.wchs4pets.org/wp-content/uploads/2015/03/cat_1-jpg.jpg
-    author: Google Developers Group Managua
-    ---
-
-###### Layout Configuration
-You can setup 4 types of layout
-
-    - Fixed Nav + Simple Card Grid
-    - Fixed Nav + Highlight Post + Card Grid
-    - Drawer Nav + Simple Card Grid
-    - Drawer Nav + Highlight Post + Card Grid
-
-For use this in the [_config.yml](https://github.com/gdg-managua/jekyll-mdl/blob/master/_config.yml) select the type of layout, rebuild the website and voilà :smile:
-
-###### Contributing
-If you want to contribute to this project, please read the [CONTRIBUTING](https://github.com/gdg-managua/jekyll-mdl/blob/master/CONTRIBUTING.md) file and perform the following steps
-
-    # Fork this repository
-    # Clone your fork
-    jekyll serve --watch
-
-    git checkout -b feature_branch
-    # Implement your feature and tests
-    git add . && git commit
-    git push -u origin feature_branch
-    # Send a pull request for your feature branch
 
 ###### License
+
+This website has been developed on the [Jekyll MDL](https://github.com/gdgmanagua/jekyll-mdl) template created by [Google Developers Group Managua](http://www.gdgmanagua.org).
+
 Licensed under the Apache 2.0 license.
 
-See the [LICENSE](https://github.com/gdg-managua/jekyll-mdl/blob/master/LICENSE.md) file for more details.
-
-Copyright © 2015 [Google Developers Group Managua](http://www.gdgmanagua.org).
+See the [LICENSE](https://github.com/tfugkol/tfugkol.github.io/blob/master/LICENSE.md) file for more details.
