@@ -1,17 +1,13 @@
 # Site settings
 title: TensorFlow User Group Kolkata
 email: tfugkol@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   TensorFlow User Group (TFUG) Kolkata is a local community for developers, researchers, users, and writers interested in ML. TFUG Kolkata's meetups are composed of events around ML and TF to share best practices, discuss the future technology road-map, upcoming features, technology pitfalls and the entire gamut of Google’s TF related panoramic technology landscape.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://tfugkol.github.io" # the base hostname & protocol for your site
+url: "https://tfugkol.github.io"
 twitter_username: TFUGKol
 github_username:  tfugkol
 facebook_username: TFUGKol
-# google_play: 'GDGX'
-# google_plus_com: '109485346959707049693'  # Community link
-# google_plus_per: '+GDGManagua'  #Personal link
-# facebook_app_id: 12345
 permalink: /:title/
 
 # Layout settings
@@ -26,12 +22,11 @@ more_vert:
   option2:
     name: View on GitHub
     link: https://github.com/tfugkol/tfugkol.github.io
-  # option3:
-  #   name: Cool Option 3
-  #   link: www.myawesomelink.com
 
 disqus: true
 disqus_shortname: 'tfugkol'
 
 # Build settings
 markdown: kramdown
+
+exclude: [CHANGELOG.md, LICENSE, README.md, Gemfile, Gemfile.lock]
