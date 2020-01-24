@@ -18,4 +18,49 @@
 
   <!-- Custom theme css -->
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+
+  <style>
+      .expandable-button {
+        position: relative;
+        height: 36px;
+        display: inline-block;
+      }
+
+      .expandable-button.expanded .button-expansion {
+        max-height: 120px;
+        border-top: 1px solid gray;
+      }
+
+      .expandable-button.expanded .button-expansion-toggle {
+        color: white;
+        transform: rotate(90deg);
+      }
+
+      #expansion-toggle {
+        display: inline-block;
+      }
+
+      .button-expansion-toggle {
+        margin-left: 8px;
+        margin-right: -8px;
+        transition: transform 0.5s;
+        font-size: 1.4em;
+        cursor: default;
+      }
+
+      .button-expansion-toggle:hover {
+        color: white;
+      }
+
+      .button-expansion {
+        /*position: absolute;*/
+        z-index: 4;
+        width: 100%;
+        background-color: inherit;
+        max-height: 0px;
+        overflow: hidden;
+        -webkit-transition: max-height 0.5s;
+        transition: max-height 0.5s;
+      }
+    </style>
 </head>
