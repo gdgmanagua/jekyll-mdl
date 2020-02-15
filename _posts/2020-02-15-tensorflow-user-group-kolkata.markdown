@@ -15,7 +15,7 @@ TensorFlow, an open-source offering by Google, is the most popular machine learn
 
 With a goal of making Machine Learning and related concepts easier to dive into, we came up with TensorFlow User Group Kolkata. The primary focus is on Machine learning and Deep Learning with TensorFlow. We welcome ML enthusiasts, practitioners and researchers alike. Students of all ages and professions are welcomed alike. 
 
-You can learn more about TensorFlow at - https://www.tensorflow.org/
+You can learn more about TensorFlow at - [https://www.tensorflow.org/](https://www.tensorflow.org/)
 
 <hr />
 
