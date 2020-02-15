@@ -13,7 +13,7 @@ It is a local community for developers, researchers, users, teachers and writers
 
 TensorFlow, an open-source offering by Google, is the most popular machine learning library among developers in the industry to integrate the power of artificial intelligence into applications and businesses. Right from preparing your data, to building you model, to production, TensorFlow can handle it all. 
 
-With a goal of making Machine Learning and related concepts easier to dive into, we came up with TensorFlow User Group Kolkata. The primary focus is on Machine learning and Deep Learning with TensorFlow. We welcome ML enthusiast, practitioner and researcher alike. Students of all ages and professions are welcomed the alike. 
+With a goal of making Machine Learning and related concepts easier to dive into, we came up with TensorFlow User Group Kolkata. The primary focus is on Machine learning and Deep Learning with TensorFlow. We welcome ML enthusiasts, practitioners and researchers alike. Students of all ages and professions are welcomed alike. 
 
 You can learn more about TensorFlow at - https://www.tensorflow.org/
 
