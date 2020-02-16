@@ -3,7 +3,7 @@ layout: post
 title:  "TensorFlow User Group Kolkata"
 date:   2020-02-15 13:00:00
 categories: General
-highlight: true
+highlight: false
 image: https://tfugkol.github.io/assets/img/banner.jpg
 ---
 Hey there!
