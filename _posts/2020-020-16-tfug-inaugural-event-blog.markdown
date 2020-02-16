@@ -2,7 +2,7 @@
 
 TensorFlow User Group Kolkata(TFUG Kol) is a professional community bringing together machine learning practitioners of the city to discuss, network and collaborate how they use TensorFlow for their development needs. It is a local community of the people, by the people, and for everyone who is a developer, researcher, user, teacher or writer,  interested in Machine Learning. With this as our primary mission, we hosted our inaugural event **'from tfug import Kolkata'** on 15th February 2020 at Moot Court, Sister Nivedita University. For this event, we had two sessions. Here’s the meetup link: http://bit.ly/importtfug.
 
-<div style="text-align:center"><img src="..\assets\img\post_images\audience.jpg" />It was a huge audience.</div>
+<div style="text-align:center"><img src="..\assets\img\post_images\audience.jpg" /><center>It was a huge audience.</center></div><br>
 
 
 
@@ -12,7 +12,7 @@ TFUG is to bring together like-minded people specific towards machine learning a
 
 You can find his deck here: [http://bit.ly/tfug_kol](https://t.co/Qc4U20ukeA?amp=1).
 
-<div style="text-align:center"><img src="..\assets\img\post_images\session1.jpg" />Sayak Paul introducing TFUG to the audience</div>
+<div style="text-align:center"><img src="..\assets\img\post_images\session1.jpg" /><center>Sayak Paul introducing TFUG to the audience.</center></div><br>
 
 
 
@@ -24,13 +24,13 @@ You can find his deck here: http://bit.ly/bertandattentiondeck.
 
 You can find his code demonstration here: http://bit.ly/bertandattentioncolab.
 
-<div style="text-align:center"><img src="..\assets\img\post_images\session2.jpg" />Souradip Chakraborty explaining bag of words.</div>
+<div style="text-align:center"><img src="..\assets\img\post_images\session2.jpg" /><center>Souradip Chakraborty explaining bag of words.</center></div><br>
 
 
 
 The event started around 12.30 PM and was wrapped up by 4.00 PM. Domino's pizza and Coca Cola was handed out as lunch to over 150 attendees who showed great enthusiasm during the sessions. The local volunteers(students and staff) from the college helped us make this event a memorable one.
 
-<div style="text-align:center"><img src="..\assets\img\post_images\speakerwithteam.jpg" />Souradip Chakraborty with TFUG core team</div>
+<div style="text-align:center"><img src="..\assets\img\post_images\speakerwithteam.jpg" /><center>Souradip Chakraborty with TFUG core team.</center></div><br>
 
 
 
