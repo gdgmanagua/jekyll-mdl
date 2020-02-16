@@ -26,9 +26,7 @@ The second session was titled **'Self-attention and BERT using TensorFlow 2.0'**
 
 In the second half of his talk, Souradip took a brief stab at the mighty attention mechanism, why it makes so much sense and jumped towards self-attention. He concluded with brief pointers about Transformer-based networks, BERT, and a short code walkthrough to demonstrate the power of BERT in language modeling tasks. 
 
-You can find his deck [here](http://bit.ly/bertandattentiondeck).
-
-You can find his code demonstration [here](http://bit.ly/bertandattentioncolab).
+You can find his deck and code demonstration [here](https://github.com/souradip-chakraborty/Soura_Codes/tree/master/TensorFlow%20User%20Group%20Inauguration%20Session).
 
 <div style="text-align:center"><img src="..\assets\img\post_images\session2.jpg" /></div><br>
 
