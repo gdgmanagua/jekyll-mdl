@@ -1,6 +1,6 @@
 # TFUG Inaugural Event on 15th Feb
 
-TensorFlow User Group Kolkata(TFUG Kol) is a professional community bringing together machine learning practitioners of the city to discuss, network and collaborate how they use TensorFlow for their development needs. It is a local community of the people, by the people, and for everyone who is a developer, researcher, user, teacher or writer,  interested in Machine Learning. With this as our primary mission, we hosted our inaugural event **'from tfug import Kolkata'** on 15th February 2020 at Moot Court, Sister Nivedita University. For this event, we had two sessions. Here’s the meetup link: http://bit.ly/importtfug.
+TensorFlow User Group Kolkata(TFUG Kol) is a professional community bringing together machine learning practitioners of the city to discuss, network and collaborate how they use TensorFlow for their development needs. It is a local community of the people, by the people, and for everyone who is a developer, researcher, user, teacher or writer,  interested in Machine Learning. With this as our primary mission, we hosted our inaugural event **'from tfug import Kolkata'** on 15th February 2020 at Moot Court, Sister Nivedita University. For this event, we had two sessions. You can find the meetup link [here](http://bit.ly/importtfug).
 
 <div style="text-align:center"><img src="..\assets\img\post_images\audience.jpg" /></div><br>
 
@@ -10,7 +10,7 @@ In the first session which was titled **'def tfug_kol()**', Sayak Paul, TFUG Kol
 
 TFUG is to bring together like-minded people specific towards machine learning and help the community stay up to date on Google’s product areas on machine learning. He gave an insight into various TensorFlow product areas and why it’s an elephant in the room. He did mention that “although this group is dedicated towards machine learning with TensorFlow, we don’t discourage discussions on other open-source frameworks for doing machine learning. 
 
-You can find his deck here: [http://bit.ly/tfug_kol](https://t.co/Qc4U20ukeA?amp=1).
+You can find his deck [here](http://bit.ly/tfug_kol).
 
 <div style="text-align:center"><img src="..\assets\img\post_images\session1.jpg" /></div><br>
 
@@ -20,9 +20,9 @@ The second session was titled **'Self-attention and BERT using TensorFlow 2.0'**
 
 In the second half of his talk, Souradip took a brief stab at the mighty attention mechanism, why it makes so much sense and jumped towards self-attention. He concluded with brief pointers about Transformer-based networks, BERT, and a short code walkthrough to demonstrate the power of BERT in language modeling tasks. 
 
-You can find his deck here: http://bit.ly/bertandattentiondeck.
+You can find his deck [here](http://bit.ly/bertandattentiondeck).
 
-You can find his code demonstration here: http://bit.ly/bertandattentioncolab.
+You can find his code demonstration [here](http://bit.ly/bertandattentioncolab).
 
 <div style="text-align:center"><img src="..\assets\img\post_images\session2.jpg" /></div><br>
 
