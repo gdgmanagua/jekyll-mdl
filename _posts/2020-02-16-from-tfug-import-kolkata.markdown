@@ -4,7 +4,7 @@ title:  "TFUG Inaugural Event on 15th Feb"
 date:   2020-02-16 13:00:00
 categories: General
 highlight: true
-image: https://tfugkol.github.io/assets/img/post_images/session1.jpg
+image: https://tfugkol.github.io/assets/img/post_images/session2.jpg
 ---
 TensorFlow User Group Kolkata(TFUG Kol) is a professional community bringing together machine learning practitioners of the city to discuss, network and collaborate how they use TensorFlow for their development needs. It is a local community of the people, by the people, and for everyone who is a developer, researcher, user, teacher or writer,  interested in Machine Learning. With this as our primary mission, we hosted our inaugural event **'from tfug import Kolkata'** on 15th February 2020 at Moot Court, Sister Nivedita University. For this event, we had two sessions. You can find the meetup link [here](http://bit.ly/importtfug).
 
