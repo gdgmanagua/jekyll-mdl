@@ -11,6 +11,9 @@ layout: default
       </div>
       <h3>{{ page.title }}</h3>
       <article class="post-content">
+        {% if page.displayimage == true %}
+          <p><img src="{{ page.image }}" /></p>
+        {% endif %}
         <p>{{ content }}</p>
       </article>
       <!-- Disqus comments -->
