@@ -5,14 +5,14 @@ date:   2020-03-18 13:00:00
 categories: Commentary and announcements
 highlight: true
 author: Sayak Paul
-image: https://tfugkol.github.io/https://tfugkol.github.io/assets/img/post_images/media_devsummit_blog/image6.png
+image: https://github.com/tfugkol/tfugkol.github.io/blob/devsummit-blog/assets/img/post_images/media_devsummit_blog/image6.png
 ---
 
 **COVID-19** hit the world pretty hard causing stern losses. It included turning many in-person flagship developer conferences to completely online. TensorFlow’s annual developer conference [<span class="underline">TensorFlow Dev Summit</span>](https://www.tensorflow.org/dev-summit) was no exception. This year it was a livestream only event and it took place on March 11.
 
 The TensorFlow ecosystem is pretty huge and it’s growing. Here are some of the key components of that:
 
-![](https://tfugkol.github.io/assets/img/post_images/media_devsummit_blog/image6.png)
+![](https://github.com/tfugkol/tfugkol.github.io/blob/devsummit-blog/assets/img/post_images/media_devsummit_blog/image6.png)
 
 **Snapshot taken from the [<span class="underline">TFDevSummit 2020 keynote</span>](https://youtu.be/_lsjCH3fd00)**
 
@@ -20,53 +20,53 @@ Like every year, the TensorFlow team introduced a number of new initiatives, [<s
 
 # \#1 TensorFlow Hub
 
-![](https://tfugkol.github.io/assets/img/post_images/media_devsummit_blog/image1.png)
+![](https://github.com/tfugkol/tfugkol.github.io/blob/devsummit-blog/assets/img/post_images/media_devsummit_blog/image1.png)
 
 **[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1238351587304591360) to Tweet**
 
 # \#2 TensorFlow Quantum
 
-# ![](https://tfugkol.github.io/assets/img/post_images/media_devsummit_blog/image3.png)
+# ![](https://github.com/tfugkol/tfugkol.github.io/blob/devsummit-blog/assets/img/post_images/media_devsummit_blog/image3.png)
 
 **[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1238139119278030850) to Tweet**
 
 # \#3 TensorFlow JS
 
-![](https://tfugkol.github.io/assets/img/post_images/media_devsummit_blog/image2.png)
+![](https://github.com/tfugkol/tfugkol.github.io/blob/devsummit-blog/assets/img/post_images/media_devsummit_blog/image2.png)
 
 [<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1239553411877462016) to Tweet
 
 # \#4 TensorFlow Lite
 
-![](https://tfugkol.github.io/assets/img/post_images/media_devsummit_blog/image7.png)
+![](https://github.com/tfugkol/tfugkol.github.io/blob/devsummit-blog/assets/img/post_images/media_devsummit_blog/image7.png)
 
 [<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1239192872533909505) to Tweet
 
 # \#5 TensorFlow for NLP
 
-![](https://tfugkol.github.io/assets/img/post_images/media_devsummit_blog/image5.png)
+![](https://github.com/tfugkol/tfugkol.github.io/blob/devsummit-blog/assets/img/post_images/media_devsummit_blog/image5.png)
 
 [<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1238487364080549889) to Tweet
 
 # \#6 TensorFlow Profiler
 
-![](https://tfugkol.github.io/assets/img/post_images/media_devsummit_blog/image4.png)
+![](https://github.com/tfugkol/tfugkol.github.io/blob/devsummit-blog/assets/img/post_images/media_devsummit_blog/image4.png)
 
 [<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1238081475288772611) to Tweet
 
-TensorFlow certification, revamped MLCC, more
+# TensorFlow certification, revamped MLCC, more
 
 This time there was something for all. The tensorFlow team introduced some really exciting news and opportunities. They are listed as follows:
 
-1.  > [<span class="underline">TensorFlow Certification</span>](https://www.tensorflow.org/certificate): Do you want to differentiate yourself and demonstrate your skills to a wider audience. You can be recognized with the newly announced TensorFlow certification program. This is intended as a foundational certificate for students, developers, and data scientists. The evaluation will be done on the basis of an exam which will cost $100. Once you have cleared this exam you can be part of their certificate network.
+1. [TensorFlow Certification](https://www.tensorflow.org/certificate): Do you want to differentiate yourself and demonstrate your skills to a wider audience. You can be recognized with the newly announced TensorFlow certification program. This is intended as a foundational certificate for students, developers, and data scientists. The evaluation will be done on the basis of an exam which will cost $100. Once you have cleared this exam you can be part of their certificate network.
 
-> Just so that people from every walk of lives can benefit from this program, they also have a [<span class="underline">TensorFlow education stipend</span>](https://www.tensorflow.org/site-assets/downloads/marketing/cert/TF_Education_Stipend.pdf).
+Just so that people from every walk of lives can benefit from this program, they also have a [TensorFlow education stipend](https://www.tensorflow.org/site-assets/downloads/marketing/cert/TF_Education_Stipend.pdf).
 
-2.  > TensorFlow Hub: If you are not into building custom models from scratch TensorFlow got you covered. TensorFlow Hub hosts a comprehensive collection of over 1000 pre-trained models with documentation, code snippets, and demos ready to be used. You can find them [<span class="underline">here</span>](https://tfhub.dev/).
+2. TensorFlow Hub: If you are not into building custom models from scratch TensorFlow got you covered. TensorFlow Hub hosts a comprehensive collection of over 1000 pre-trained models with documentation, code snippets, and demos ready to be used. You can find them [<span class="underline">here</span>](https://tfhub.dev/).
 
-> As an enthusiastic DL practitioner, you would also want to publish your model vai TensorFlow Hub. It would really add so much value to your profile and resume. To learn more about this visit [<span class="underline">here</span>](https://github.com/tensorflow/hub/tree/master/tfhub_dev).
+As an enthusiastic DL practitioner, you would also want to publish your model vai TensorFlow Hub. It would really add so much value to your profile and resume. To learn more about this visit [<span class="underline">here</span>](https://github.com/tensorflow/hub/tree/master/tfhub_dev).
 
-3.  > Revamped [<span class="underline">MLCC</span>](https://developers.google.com/machine-learning/crash-course): Google Machine Learning Crash Course is one of the finest crash courses on ML/DL out there. And they have just updated it to use TensorFlow 2.x and even better, students will now build models using tf.keras. The new exercises there will now have clearer instructions. If you are a beginner, it’s the best time to start your ML journey.
+3. Revamped [<span class="underline">MLCC</span>](https://developers.google.com/machine-learning/crash-course): Google Machine Learning Crash Course is one of the finest crash courses on ML/DL out there. And they have just updated it to use TensorFlow 2.x and even better, students will now build models using tf.keras. The new exercises there will now have clearer instructions. If you are a beginner, it’s the best time to start your ML journey.
 
 # Conclusion
 
