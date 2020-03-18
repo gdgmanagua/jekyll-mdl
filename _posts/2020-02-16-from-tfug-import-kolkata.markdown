@@ -3,7 +3,7 @@ layout: post
 title:  "TFUG Inaugural Event on 15th Feb"
 date:   2020-02-16 13:00:00
 categories: Meetups
-highlight: true
+highlight: false
 author: Ayush Thakur
 image: https://tfugkol.github.io/assets/img/post_images/session2.jpg
 ---
