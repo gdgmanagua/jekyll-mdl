@@ -22,37 +22,37 @@ Like every year, the TensorFlow team introduced a number of new initiatives, [<s
 
 ![](https://github.com/tfugkol/tfugkol.github.io/blob/devsummit-blog/assets/img/post_images/media_devsummit_blog/image1.png)
 
-<center>**[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1238351587304591360) to Tweet**</center>
+**[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1238351587304591360) to Tweet**
 
 # \#2 TensorFlow Quantum
 
 # ![](https://github.com/tfugkol/tfugkol.github.io/blob/devsummit-blog/assets/img/post_images/media_devsummit_blog/image3.png)
 
-<center>**[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1238139119278030850) to Tweet**</center>
+**[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1238139119278030850) to Tweet**
 
 # \#3 TensorFlow JS
 
 ![](https://github.com/tfugkol/tfugkol.github.io/blob/devsummit-blog/assets/img/post_images/media_devsummit_blog/image2.png)
 
-<center>**[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1239553411877462016) to Tweet**</center>
+**[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1239553411877462016) to Tweet**
 
 # \#4 TensorFlow Lite
 
 ![](https://github.com/tfugkol/tfugkol.github.io/blob/devsummit-blog/assets/img/post_images/media_devsummit_blog/image7.png)
 
-<center>**[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1239192872533909505) to Tweet**</center>
+**[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1239192872533909505) to Tweet**
 
 # \#5 TensorFlow for NLP
 
 ![](https://github.com/tfugkol/tfugkol.github.io/blob/devsummit-blog/assets/img/post_images/media_devsummit_blog/image5.png)
 
-<center>**[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1238487364080549889) to Tweet**</center>
+**[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1238487364080549889) to Tweet**
 
 # \#6 TensorFlow Profiler
 
 ![](https://github.com/tfugkol/tfugkol.github.io/blob/devsummit-blog/assets/img/post_images/media_devsummit_blog/image4.png)
 
-<center>**[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1238081475288772611) to Tweet**</center>
+**[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1238081475288772611) to Tweet**
 
 # TensorFlow certification, revamped MLCC, more
 
