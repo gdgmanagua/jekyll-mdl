@@ -60,11 +60,11 @@ This time there was something for all. The tensorFlow team introduced some reall
 
 - [TensorFlow Certification](https://www.tensorflow.org/certificate): Do you want to differentiate yourself and demonstrate your skills to a wider audience. You can be recognized with the newly announced TensorFlow certification program. This is intended as a foundational certificate for students, developers, and data scientists. The evaluation will be done on the basis of an exam which will cost $100. Once you have cleared this exam you can be part of their certificate network.
 
-Just so that people from every walk of lives can benefit from this program, they also have a [TensorFlow education stipend](https://www.tensorflow.org/site-assets/downloads/marketing/cert/TF_Education_Stipend.pdf).
+  Just so that people from every walk of lives can benefit from this program, they also have a [TensorFlow education stipend](https://www.tensorflow.org/site-assets/downloads/marketing/cert/TF_Education_Stipend.pdf).
 
 - TensorFlow Hub: If you are not into building custom models from scratch TensorFlow got you covered. TensorFlow Hub hosts a comprehensive collection of over 1000 pre-trained models with documentation, code snippets, and demos ready to be used. You can find them [<span class="underline">here</span>](https://tfhub.dev/).
 
-As an enthusiastic DL practitioner, you would also want to publish your model vai TensorFlow Hub. It would really add so much value to your profile and resume. To learn more about this visit [<span class="underline">here</span>](https://github.com/tensorflow/hub/tree/master/tfhub_dev).
+   As an enthusiastic DL practitioner, you would also want to publish your model vai TensorFlow Hub. It would really add so much value to your profile and resume. To learn more about this visit [<span class="underline">here</span>](https://github.com/tensorflow/hub/tree/master/tfhub_dev).
 
 - Revamped [<span class="underline">MLCC</span>](https://developers.google.com/machine-learning/crash-course): Google Machine Learning Crash Course is one of the finest crash courses on ML/DL out there. And they have just updated it to use TensorFlow 2.x and even better, students will now build models using tf.keras. The new exercises there will now have clearer instructions. If you are a beginner, it’s the best time to start your ML journey.
 
