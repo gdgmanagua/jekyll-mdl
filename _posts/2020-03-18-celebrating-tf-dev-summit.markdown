@@ -5,14 +5,14 @@ date:   2020-03-18 13:00:00
 categories: Commentary and announcements
 highlight: true
 author: Sayak Paul
-image: assets/img/post_images/media_devsummit_blog/image6.png
+image: /assets/img/post_images/media_devsummit_blog/image6.png
 ---
 
 **COVID-19** hit the world pretty hard causing stern losses. It included turning many in-person flagship developer conferences to completely online. TensorFlow’s annual developer conference [<span class="underline">TensorFlow Dev Summit</span>](https://www.tensorflow.org/dev-summit) was no exception. This year it was a livestream only event and it took place on March 11.
 
 The TensorFlow ecosystem is pretty huge and it’s growing. Here are some of the key components of that:
 
-![](assets/img/post_images/media_devsummit_blog/image6.png)
+![](/assets/img/post_images/media_devsummit_blog/image6.png)
 
 **Snapshot taken from the [<span class="underline">TFDevSummit 2020 keynote</span>](https://youtu.be/_lsjCH3fd00)**
 
@@ -20,37 +20,37 @@ Like every year, the TensorFlow team introduced a number of new initiatives, [<s
 
 # \#1 TensorFlow Hub
 
-![](assets/img/post_images/media_devsummit_blog/image1.png)
+![](/assets/img/post_images/media_devsummit_blog/image1.png)
 
 **[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1238351587304591360) to Tweet**
 
 # \#2 TensorFlow Quantum
 
-# ![](assets/img/post_images/media_devsummit_blog/image3.png)
+# ![](/assets/img/post_images/media_devsummit_blog/image3.png)
 
 **[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1238139119278030850) to Tweet**
 
 # \#3 TensorFlow JS
 
-![](assets/img/post_images/media_devsummit_blog/image2.png)
+![](/assets/img/post_images/media_devsummit_blog/image2.png)
 
 **[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1239553411877462016) to Tweet**
 
 # \#4 TensorFlow Lite
 
-![](assets/img/post_images/media_devsummit_blog/image7.png)
+![](/assets/img/post_images/media_devsummit_blog/image7.png)
 
 **[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1239192872533909505) to Tweet**
 
 # \#5 TensorFlow for NLP
 
-![](assets/img/post_images/media_devsummit_blog/image5.png)
+![](/assets/img/post_images/media_devsummit_blog/image5.png)
 
 **[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1238487364080549889) to Tweet**
 
 # \#6 TensorFlow Profiler
 
-![](assets/img/post_images/media_devsummit_blog/image4.png)
+![](/assets/img/post_images/media_devsummit_blog/image4.png)
 
 **[<span class="underline">Link</span>](https://twitter.com/TFUGKol/status/1238081475288772611) to Tweet**
 
