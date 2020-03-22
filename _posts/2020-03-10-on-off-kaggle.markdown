@@ -9,15 +9,19 @@ image: /assets/img/post_images/on-off-kaggle-banner.png
 displayimage: true
 ---
 
-Join TensorFlow User Group Kolkata for an expert session to celebrate the TensorFlow Dev Summit Extended series. In this session, Aakash Nain who is a Research Engineer at Ola and also a GDE for Machine Learning will be walking us through the several key differences in doing Machine Learning on and off Kaggle. 
+Join TensorFlow User Group Kolkata for an expert session to celebrate the TensorFlow Dev Summit Extended series. In this session, **Aakash Nain** who is a Research Engineer at Ola and also a [GDE for Machine Learning](https://developers.google.com/community/experts/directory/profile/profile-aakash_nain) will be walking us through the several key differences in doing Machine Learning on and off Kaggle. 
 
 This session is going to be tremendously useful for both the budding Machine Learning enthusiasts as well as the more advanced practitioners. 
 
 **When**: 12:00 P.M. , 22nd March, 2020
 
-**Register here**: [bit.ly/TFDSKol20Online](http://bit.ly/TFDSKol20Online)
+**Important links of the session:
 
-[**\#TFDevSummit**](https://twitter.com/hashtag/TFDevSummit) [**\#PoweredbyTF**](https://twitter.com/hashtag/PoweredByTF)
+- The session is available [here](https://www.youtube.com/watch?v=VITk3IOxG_E). 
+- The deck presented in the session is available [here](https://docs.google.com/presentation/d/1dvYNCw2Yi-oAvMmgTrJ9YLYbBiMvECQheojkIzqwkBE/edit?usp=sharing).
+- During the QA, Aakash mentioned about **Kaggle Noobs**. [Here](http://kagglenoobs.herokuapp.com)'s the link to join it. 
+- [An interview with Aakash](https://medium.com/@spsayakpaul/an-interview-with-aakash-nain-research-engineer-at-ola-b0348054adfa) where he discussed his capstone projects, his early motivations to pursue Machine Learning, and more. 
+- Aakash in available on Twitter as [@A_K_Nain](https://twitter.com/A_K_Nain). 
 
 
 We welcome machine learning enthusiasts, practitioners and researchers alike. Students of all ages and professionals are welcomed alike. We are keen on hearing about your experience, you can mail us at **tfugkol@gmail.com**. Follow us on [Twitter](https://twitter.com/TFUGKol), [Facebook](https://www.facebook.com/TFUGKol/) and [LinkedIn](https://www.linkedin.com/company/tfug-kol/). Do join our [Telegram](https://t.me/TFUGKol) space to stay updated. 
