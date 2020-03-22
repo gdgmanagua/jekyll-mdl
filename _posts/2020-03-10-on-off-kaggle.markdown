@@ -6,16 +6,18 @@ categories: YouTube Live
 highlight: true
 author: Anubhav Singh
 image: /assets/img/post_images/on-off-kaggle-banner.png
-displayimage: true
+displayimage: false
 ---
 
 Join TensorFlow User Group Kolkata for an expert session to celebrate the TensorFlow Dev Summit Extended series. In this session, **Aakash Nain** who is a Research Engineer at Ola and also a [GDE for Machine Learning](https://developers.google.com/community/experts/directory/profile/profile-aakash_nain) will be walking us through the several key differences in doing Machine Learning on and off Kaggle. 
 
-This session is going to be tremendously useful for both the budding Machine Learning enthusiasts as well as the more advanced practitioners. 
+The session recording is available here - 
 
-**When**: 12:00 P.M. , 22nd March, 2020
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/VITk3IOxG_E' frameborder='0' allowfullscreen></iframe></div>
 
-**Important links of the session:
+
+
+#### Important links of the session:
 
 - The session is available [here](https://www.youtube.com/watch?v=VITk3IOxG_E). 
 - The deck presented in the session is available [here](https://docs.google.com/presentation/d/1dvYNCw2Yi-oAvMmgTrJ9YLYbBiMvECQheojkIzqwkBE/edit?usp=sharing).
