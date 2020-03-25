@@ -5,10 +5,11 @@ date:   2020-03-26 13:00:00
 categories: Announcements
 highlight: true
 author: Sayak Paul
-image: /assets/img/post_images/TweetsOnTF.jpg
+image: /assets/img/post_images/TweetsOnTF.png
+displayimage: false
 ---
 
-![](/assets/img/post_images/TweetsOnTF.jpg)
+![](/assets/img/post_images/TweetsOnTF.png)
 
 Continuing with our celebration on [TensorFlow Dev Summit 2020](https://www.tensorflow.org/dev-summit), we are pleased to announce a fun competition - **TweetsOnTF**!
 
@@ -32,7 +33,7 @@ _**If you fail to adhere to any of the rules mentioned above, your entry will ge
 
 ### Timeline of the contest
 
-![](/assets/img/post_images/timeline_tweets.jpg)
+![](/assets/img/post_images/timeline_tweets.png)
 
 The top three participants will receive digital goodies and we will feature their Tweets from [our Twitter channel](https://twitter.com/TFUGKol).
 

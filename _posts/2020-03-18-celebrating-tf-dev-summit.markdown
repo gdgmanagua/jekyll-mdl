@@ -3,9 +3,10 @@ layout: post
 title:  "Celebrating #TFDevSummit 2020"
 date:   2020-03-18 13:00:00
 categories: Commentary and announcements
-highlight: true
+highlight: false
 author: Sayak Paul
 image: /assets/img/post_images/media_devsummit_blog/image6.png
+displayimage: false
 ---
 
 **COVID-19** hit the world pretty hard causing stern losses. It included turning many in-person flagship developer conferences to completely online. TensorFlow’s annual developer conference [<span class="underline">TensorFlow Dev Summit</span>](https://www.tensorflow.org/dev-summit) was no exception. This year it was a livestream only event and it took place on March 11.
