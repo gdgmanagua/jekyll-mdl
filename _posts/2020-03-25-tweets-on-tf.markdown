@@ -30,16 +30,17 @@ Now, before you jump to conclusions, please take the time out to read the follow
 
 _**If you fail to adhere to any of the rules mentioned above, your entry will get disqualified**_.
 
-# Timeline of the contest
+## Timeline of the contest
 
 ![](/assets/img/post_images/timeline_tweets.jpg)
 
 The top three participants will receive digital goodies and we will feature their Tweets from [our Twitter channel](https://twitter.com/TFUGKol).
 
-# Judging Criteria:
+## Judging Criteria
 
 - Clarity and brevity
 - _**No room for plagiarism**_
 - Relevance of the topic to the ML community
+
 
 Additionally, you can spread the word about this competition via your networks. A good idea might be to share your Tweets directly on different channels like Facebook, Reddit, LinkedIn, and so on. We are on [Facebook](https://www.facebook.com/TFUGKol/) and [LinkedIn](https://www.linkedin.com/company/tfug-kol) as well, so feel free to tag us there.
