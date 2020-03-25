@@ -6,10 +6,8 @@ categories: Announcements
 highlight: true
 author: Sayak Paul
 image: /assets/img/post_images/TweetsOnTF.png
-displayimage: false
+displayimage: true
 ---
-
-![](/assets/img/post_images/TweetsOnTF.png)
 
 Continuing with our celebration on [TensorFlow Dev Summit 2020](https://www.tensorflow.org/dev-summit), we are pleased to announce a fun competition - **TweetsOnTF**!
 
