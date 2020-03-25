@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ML On Kaggle and Off Kaggle by Aakash Nain on 22nd March"
-date:   2020-03-09 13:00:00
+date:   2020-03-22 13:00:00
 categories: YouTube Live
 highlight: true
 author: Anubhav Singh
