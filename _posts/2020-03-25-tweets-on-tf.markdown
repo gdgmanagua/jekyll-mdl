@@ -30,13 +30,13 @@ Now, before you jump to conclusions, please take the time out to read the follow
 
 _**If you fail to adhere to any of the rules mentioned above, your entry will get disqualified**_.
 
-## Timeline of the contest
+### Timeline of the contest
 
 ![](/assets/img/post_images/timeline_tweets.jpg)
 
 The top three participants will receive digital goodies and we will feature their Tweets from [our Twitter channel](https://twitter.com/TFUGKol).
 
-## Judging Criteria
+### Judging Criteria
 
 - Clarity and brevity
 - _**No room for plagiarism**_
