@@ -7,11 +7,11 @@ highlight: false
 author: Ayush Thakur
 image: https://tfugkol.github.io/assets/img/post_images/session2.jpg
 ---
-TensorFlow User Group Kolkata(TFUG Kol) is a professional community bringing together machine learning practitioners of the city to discuss, network and collaborate how they use TensorFlow for their development needs. It is a local community of the people, by the people, and for everyone who is a developer, researcher, user, teacher or writer,  interested in Machine Learning. With this as our primary mission, we hosted our inaugural event **'from tfug import Kolkata'** on 15th February 2020 at Moot Court, Sister Nivedita University. For this event, we had two sessions. You can find the meetup link [here](http://bit.ly/importtfug).
+TensorFlow User Group Kolkata(TFUG Kol) is a professional community bringing together machine learning practitioners of the city to discuss, network and collaborate how they use TensorFlow for their development needs. It is a local community of the people, by the people, and for everyone who is a developer, researcher, user, teacher or writer,  interested in Machine Learning. 
+
+With this as our primary mission, we hosted our inaugural event **'from tfug import Kolkata'** on 15th February 2020 at Moot Court, Sister Nivedita University. For this event, we had two sessions. You can find the meetup link [here](http://bit.ly/importtfug).
 
 <div style="text-align:center"><img src="..\assets\img\post_images\audience.jpg" /></div><br>
-
-
 
 In the first session which was titled **'def tfug_kol()**', Sayak Paul, TFUG Kolkata Lead, GDE - Machine Learning, Deep Learning Associate at PyImageSearch, introduced the audience with TFUG and it’s core team members. Kolkata is not short on technical communities and thus he emphasized on “Why another group?”. He said that “Machine Learning can be intimidating. Thus having a community that breathes machine learning can be helpful.” 
 

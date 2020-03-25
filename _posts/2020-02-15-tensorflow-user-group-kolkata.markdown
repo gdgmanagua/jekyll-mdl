@@ -7,9 +7,7 @@ highlight: false
 image: https://tfugkol.github.io/assets/img/banner.jpg
 displayimage: true
 ---
-Hey there!
-
-Thanks for taking out time to dive into the what and who about this user group here. TFUG is a professional community bringing together machine learning practitioners of the city to discuss, network and collaborate how they use TensorFlow for their development needs.
+Hey there! Thanks for taking out time to dive into the what and who about this user group here. TFUG is a professional community bringing together machine learning practitioners of the city to discuss, network and collaborate how they use TensorFlow for their development needs.
 It is a local community for developers, researchers, users, teachers and writers interested in Machine Learning. This community is by the people for the people. 
 
 TensorFlow, an open-source offering by Google, is the most popular machine learning library among developers in the industry to integrate the power of artificial intelligence into applications and businesses. Right from preparing your data, to building you model, to production, TensorFlow can handle it all. 

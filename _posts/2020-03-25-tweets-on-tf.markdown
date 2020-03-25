@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Announcing TweetsOnTF contest"
-date:   2020-03-26 13:00:00
+date:   2020-03-25 13:00:00
 categories: Announcements
 highlight: true
 author: Sayak Paul
