@@ -3,7 +3,7 @@ layout: post
 title:  "ML On Kaggle and Off Kaggle by Aakash Nain on 22nd March"
 date:   2020-03-22 13:00:00
 categories: YouTube Live
-highlight: true
+highlight: false
 author: Anubhav Singh
 image: /assets/img/post_images/on-off-kaggle-banner.png
 displayimage: false
