@@ -9,7 +9,7 @@ image: https://tfugkol.github.io/assets/img/post_images/khanh.png
 displayimage: true
 ---
 
-![](assets/img/post_images/khanh.png)
+![](../assets/img/post_images/khanh.png)
 
 [**TensorFlow Lite (TFLite)**](https://www.tensorflow.org/lite) allows us to deploy light-weight state-of-the-art (SoTA) machine learning models to mobile and embedded devices. It reduces the memory footprints of the heavier deep learning models and thereby enhances the latency in producing predictions. This makes TensorFlow Lite a very ideal candidate for mobile and embedded-based machine learning applications which tend to operate in resource-constrained environments.
 
