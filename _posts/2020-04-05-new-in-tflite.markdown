@@ -9,8 +9,6 @@ image: /assets/img/post_images/khanh.png
 displayimage: true
 ---
 
-![](../assets/img/post_images/khanh.png)
-
 [**TensorFlow Lite (TFLite)**](https://www.tensorflow.org/lite) allows us to deploy light-weight state-of-the-art (SoTA) machine learning models to mobile and embedded devices. It reduces the memory footprints of the heavier deep learning models and thereby enhances the latency in producing predictions. This makes TensorFlow Lite a very ideal candidate for mobile and embedded-based machine learning applications which tend to operate in resource-constrained environments.
 
 There were a number of interesting announcements made on TensorFlow Lite during [TensorFlow Dev Summit 2020](https://www.youtube.com/playlist?list=PLQY2H8rRoyvzuJw20FG82Lgm2SZjTdIXU). In this session, **Khanh LeViet** will take us through “**What's new in TensorFlow Lite from DevSummit 2020**”. Towards the end of the session, there will be a mini QA round so that you can bring your TFLite questions to Khanh.
