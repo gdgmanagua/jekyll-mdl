@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Google Developers Group"
-date:   2015-10-11 04:34:20
+title:  "留言板"
+date:   2020-11-17
 categories: GDG
 highlight: true
 image: http://4.bp.blogspot.com/-IOD6VutWGlA/UW8Jq05M0DI/AAAAAAAAAeA/OVckWFybKqg/s1600/DSC01317.JPG
@@ -29,4 +29,3 @@ Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulpu
 Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
 
 Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.
-
