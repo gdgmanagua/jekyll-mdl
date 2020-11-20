@@ -5,29 +5,29 @@ description: > # this means to ignore newlines until "baseurl:"
   介绍学学和扁扁道听途说的犯罪故事，不对任何内容负责。
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.midofnowhere.link/closurethepod/" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-facebook_username: jekyll
-google_play: 'GDGX'
-google_plus_com: '109485346959707049693'  # Community link
-google_plus_per: '+GDGManagua'  #Personal link
-facebook_app_id: 12345
+anchor: 午时已到
+spotify_podcast: 午时已到
+github_username:  yue2
+google_podcasts: 午时已到
+apple_podcast: 午时已到   # Community link
+radio_public: 午时已到   #Personal link
 
 # Layout settings
 header_type: default  # values [ drawer, default ]
 post_type: highlight    # values [ highlight, default ]
 pagination_type: default  # values [ ops, default ]
 
-more_vert:
-  option1:
-    name: Cool Option 1
-    link: www.myawesomelink.com
-  option2:
-    name: Cool Option 2
-    link: www.myawesomelink.com
-  option3:
-    name: Cool Option 3
-    link: www.myawesomelink.com
+# don't need vertical options
+#more_vert:
+#  option1:
+#    name: Cool Option 1
+#    link: www.myawesomelink.com
+#  option2:
+#    name: Cool Option 2
+#    link: www.myawesomelink.com
+#  option3:
+#    name: Cool Option 3
+#    link: www.myawesomelink.com
 
 disqus: true
 disqus_shortname: 'gdgmanagua'
