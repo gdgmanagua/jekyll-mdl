@@ -3,20 +3,21 @@
 
     <div class="mdl-mega-footer--drop-down-section">
       <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer--heading">INFO</h1>
+      <h1 class="mdl-mega-footer--heading">网页信息</h1>
       <ul class="mdl-mega-footer--link-list">
         <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">subscribe via RSS</a></li>
+        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">通过 RSS 订阅消息</a></li>
         {% if site.github_username %}
         <li>
           <a href="https://github.com/{{ site.github_username }}">
-            <span class="icon  icon--github">
-              <svg viewBox="0 0 16 16">
-                <path fill="#828282"
-                  d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z" />
-              </svg>
-            </span>
-            <span class="username">Website details from {{ site.github_username }}</span>
+            <span class="username">网页源
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282"
+                    d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z" />
+                </svg>
+              </span>
+              {{ site.github_username }}</span>
           </a>
         </li>
         {% endif %}
@@ -25,16 +26,13 @@
 
     <div class="mdl-mega-footer--drop-down-section">
       <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer--heading">GO LISTEN ON</h1>
+      <h1 class="mdl-mega-footer--heading">前往收听</h1>
       <ul class="mdl-mega-footer--link-list">
         {% if site.anchor %}
         <li>
           <a href="https://anchor.fm/christine3563">
-            <span class="icon  icon--anchor">
-              <svg viewBox="0 0 16 16">
-                <path fill="#828282"
-                  d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
-                c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z" />
+            <span class="icon-anchor">
+              <svg viewBox="0 0 16 16" style="width:16px;height:16px">
               </svg>
             </span>
             <span class="username">Anchor</span>
@@ -44,10 +42,8 @@
         {% if site.spotify_podcast %}
         <li>
           <a href="https://open.spotify.com/show/2Ur0uGHRj7hNPrznkQJtdm">
-            <span class="icon  icon--facebook">
-              <svg viewBox="0 0 24 24">
-                <path
-                  d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+            <span class="icon-volume-up">
+              <svg viewBox="0 0 16 16" style="width:16px;height:16px">
               </svg>
             </span>
             <span class="username">Spotify</span>
@@ -57,10 +53,8 @@
         {% if site.google_podcasts %}
         <li>
           <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yYzIwMTIyNC9wb2RjYXN0L3Jzcw==">
-            <span class="icon  icon--googleplay">
-              <svg style="width:16px;height:16px" viewBox="0 0 24 24">
-                <path fill="#000000"
-                  d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
+            <span class="icon-google-plus-sign">
+              <svg style="width:16px;height:16px" viewBox="0 0 16 16">
               </svg>
             </span>
             <span class="username">Google Podcasts</span>
@@ -70,13 +64,10 @@
         {% if site.apple_podcast %}
         <li>
           <a href="https://podcasts.apple.com/us/podcast/%E5%8D%88%E6%97%B6%E5%B7%B2%E5%88%B0-closure/id1523868860">
-            <span class="icon  icon--itunes">
-              <svg style="width:16px;height:16px" viewBox="0 0 24 24">
-                <path fill="#000000"
-                  d="M20,2A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V4C2,2.89 2.9,2 4,2H20M20,12H18V10H17V12H15V13H17V15H18V13H20V12M9,11.29V13H11.86C11.71,13.71 11,15.14 9,15.14C7.29,15.14 5.93,13.71 5.93,12C5.93,10.29 7.29,8.86 9,8.86C10,8.86 10.64,9.29 11,9.64L12.36,8.36C11.5,7.5 10.36,7 9,7C6.21,7 4,9.21 4,12C4,14.79 6.21,17 9,17C11.86,17 13.79,15 13.79,12.14C13.79,11.79 13.79,11.57 13.71,11.29H9Z" />
+            <span class="icon-apple">
+              <svg style="width:18px;height:18px" viewBox="0 0 24 24">
               </svg>
             </span>
-
             <span class="username">Apple Podcast</span>
           </a>
         </li>
@@ -84,10 +75,8 @@
         {% if site.radio_public %}
         <li>
           <a href="https://radiopublic.com/closure-6NVn1g">
-            <span class="icon  icon--googleplus_per">
-              <svg style="width:16px;height:16px" viewBox="0 0 24 24">
-                <path fill="#000000"
-                  d="M20,2A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V4C2,2.89 2.9,2 4,2H20M20,12H18V10H17V12H15V13H17V15H18V13H20V12M9,11.29V13H11.86C11.71,13.71 11,15.14 9,15.14C7.29,15.14 5.93,13.71 5.93,12C5.93,10.29 7.29,8.86 9,8.86C10,8.86 10.64,9.29 11,9.64L12.36,8.36C11.5,7.5 10.36,7 9,7C6.21,7 4,9.21 4,12C4,14.79 6.21,17 9,17C11.86,17 13.79,15 13.79,12.14C13.79,11.79 13.79,11.57 13.71,11.29H9Z" />
+            <span class="icon-archive">
+              <svg style="width:16px;height:16px" viewBox="0 0 16 16">
               </svg>
             </span>
 
@@ -101,7 +90,7 @@
 
     <div class="mdl-mega-footer--drop-down-section">
       <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer--heading">ABOUT</h1>
+      <h1 class="mdl-mega-footer--heading">关于</h1>
       <ul class="mdl-mega-footer--link-list">
         <li>{{ site.description }}</li>
       </ul>

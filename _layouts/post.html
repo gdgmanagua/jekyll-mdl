@@ -7,7 +7,10 @@ layout: default
     <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
     <div class="post-section mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
       <div class="mdl-color-text--grey-500">
-      {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}{% if page.categories %} • {% for cat in page.categories %} {{ cat }} {% endfor %} {% endif %}
+      {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} •
+      {{ page.author }}{% endif %}{% if page.meta %} •
+      {{ page.meta }}{% endif %}{% if page.categories %} •
+      {% for cat in page.categories %} {{ cat }} {% endfor %} {% endif %}
       </div>
       <h3>{{ page.title }}</h3>
       <article class="post-content">
