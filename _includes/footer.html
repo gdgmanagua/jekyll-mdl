@@ -5,8 +5,7 @@
       <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
       <h1 class="mdl-mega-footer--heading">网页信息</h1>
       <ul class="mdl-mega-footer--link-list">
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">通过 RSS 订阅消息</a></li>
+        <li><a href="{{ /feed.xml | prepend: site.baseurl }}">通过 RSS 订阅消息</a></li>
         {% if site.github_username %}
         <li>
           <a href="https://github.com/{{ site.github_username }}">
@@ -42,7 +41,7 @@
         {% if site.spotify_podcast %}
         <li>
           <a href="https://open.spotify.com/show/2Ur0uGHRj7hNPrznkQJtdm">
-            <span class="icon-volume-up">
+            <span class="fa fa-spotify">
               <svg viewBox="0 0 16 16" style="width:16px;height:16px">
               </svg>
             </span>
@@ -64,7 +63,7 @@
         {% if site.apple_podcast %}
         <li>
           <a href="https://podcasts.apple.com/us/podcast/%E5%8D%88%E6%97%B6%E5%B7%B2%E5%88%B0-closure/id1523868860">
-            <span class="icon-apple">
+            <span class="fa fa-podcast">
               <svg style="width:18px;height:18px" viewBox="0 0 24 24">
               </svg>
             </span>
@@ -75,7 +74,7 @@
         {% if site.radio_public %}
         <li>
           <a href="https://radiopublic.com/closure-6NVn1g">
-            <span class="icon-archive">
+            <span class="fa fa-headphones">
               <svg style="width:16px;height:16px" viewBox="0 0 16 16">
               </svg>
             </span>
@@ -102,8 +101,7 @@
   <div class="mdl-mega-footer--bottom-section">
     <div class="mdl-logo">{{ site.title }}</div>
     <ul class="mdl-mega-footer--link-list">
-      <li><a href="#">Help</a></li>
-      <li><a href="#">Privacy & Terms</a></li>
+      Licensed under the Apache 2.0 license. Copyright © 2020 <a href="https://github.com/{{ site.github_username }}">yue2</a>
     </ul>
   </div>
 

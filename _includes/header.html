@@ -2,7 +2,7 @@
 
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title"><a class="mdl-layout-title" href="{{ page.url }}">{{ site.title }}</a></span>
+      <span class="mdl-layout-title">{{ site.title }}</span>
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
 
@@ -36,6 +36,7 @@
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Menu</span>
     <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="{{site.url}}">首页</a>
     {% for page in site.pages %}
       {% if page.title %}
       <a class="mdl-navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
