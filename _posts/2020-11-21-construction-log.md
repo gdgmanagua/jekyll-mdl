@@ -13,3 +13,4 @@ categories: construction
 - 把评论模块替换成linvere以支持更多社交网络帐号
 - 邮件功能通过google form实现
 - 修改Layout
+- 修改域名
