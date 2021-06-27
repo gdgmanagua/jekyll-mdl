@@ -3,16 +3,15 @@
 
     <div class="mdl-mega-footer--drop-down-section">
       <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer--heading">INFO</h1>
+      <h1 class="mdl-mega-footer--heading">連絡先</h1>
       <ul class="mdl-mega-footer--link-list">
         <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">subscribe via RSS</a></li>
       </ul>
     </div>
 
     <div class="mdl-mega-footer--drop-down-section">
       <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer--heading">SOCIAL</h1>
+      <h1 class="mdl-mega-footer--heading">SNS</h1>
       <ul class="mdl-mega-footer--link-list">
         {% if site.github_username %}
         <li>
@@ -101,9 +100,17 @@
 
     <div class="mdl-mega-footer--drop-down-section">
       <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer--heading">ABOUT</h1>
+      <h1 class="mdl-mega-footer--heading">このブログについて</h1>
       <ul class="mdl-mega-footer--link-list">
         <li>{{ site.description }}</li>
+      </ul>
+    </div>
+    <div class="mdl-mega-footer--drop-down-section">
+      <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer--heading">ライセンス</h1>
+      <ul class="mdl-mega-footer--link-list">
+        <li><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></li>
+        <li>この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>の下に提供されています。</li>
       </ul>
     </div>
 
@@ -113,8 +120,6 @@
   <div class="mdl-mega-footer--bottom-section">
     <div class="mdl-logo">{{ site.title }}</div>
     <ul class="mdl-mega-footer--link-list">
-      <li><a href="#">Help</a></li>
-      <li><a href="#">Privacy & Terms</a></li>
     </ul>
   </div>
 
