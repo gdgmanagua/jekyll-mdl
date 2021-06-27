@@ -23,12 +23,59 @@ layout: default
       </div>
 
       <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn-high-{{ post.id }}">
-        <i class="material-icons">more_vert</i>
+        <i class="material-icons">share</i>
       </button>
       <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn-high-{{ post.id }}">
-        <li><a href="https://www.facebook.com/dialog/share?app_id={{site.facebook_app_id}}&display=page&href={{ post.url | prepend: site.baseurl }}&redirect_uri={{ site.baseurl }}" class="mdl-menu__item">Facebook</a></li>
-        <li><a href="https://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ post.title }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
-        <li><a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" class="mdl-menu__item">Google+</a></li>
+        <li>
+          <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ post.url }}"
+            rel="nofollow"
+            target="_blank"
+            title="Share on Facebook"
+            onclick="trackShareCardLink(this.href, 'Facebook'); return false;"
+            class="mdl-menu__item">
+              Facebook
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/intent/tweet?text={{ post.title }}&url={{ site.url }}{{ post.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}"
+            rel="nofollow"
+            target="_blank"
+            title="Share on Twitter"
+            onclick="trackShareCardLink(this.href, 'Twitter'); return false;"
+            class="mdl-menu__item">
+              Twitter
+          </a>
+        </li>
+        <li>
+          <a href="https://plus.google.com/share?url={{ site.url }}{{ post.url }}"
+            rel="nofollow"
+            target="_blank"
+            title="Share on Google+"
+            onclick="trackShareCardLink(this.href, 'Google+'); return false;"
+            class="mdl-menu__item">
+              Google+
+          </a>
+        </li>
+        <li>
+          <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ post.url }}&title={{ post.title }}&summary=&source={{ site.url }}{{ post.url }}"
+            rel="nofollow"
+            target="_blank"
+            title="Share on LinkedIn"
+            onclick="trackShareCardLink(this.href, 'LinkedIn'); return false;"
+            class="mdl-menu__item">
+              LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="mailto:?subject={{ page.title }} - {{ site.title }}&body=I want to share with you {{ page.title }} ({{ site.url }}{{ page.url }}), an article written by {{ site.author }} (@{{ site.twitter_username }})."
+            rel="nofollow"
+            target="_blank"
+            title="Share via Email"
+            onclick="trackShareCardLink(this.href, 'Email'); return false;"
+            class="mdl-menu__item">
+              Email
+          </a>
+        </li>
       </ul>
 
     </div>
@@ -50,11 +97,58 @@ layout: default
         <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-{{ post.id }}">
           <i class="material-icons">share</i>
         </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="post-{{ post.id }}">
-          <li><a href="https://www.facebook.com/dialog/share?app_id={{site.facebook_app_id}}&display=page&href={{ post.url | prepend: site.baseurl }}&redirect_uri={{ site.baseurl }}" class="mdl-menu__item">Facebook</a></li>
-          <li><a href="https://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ post.title }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
-          <li><a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" class="mdl-menu__item">Google+</a></li>
-        </ul>
+      <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn-high-{{ post.id }}">
+        <li>
+          <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ post.url }}"
+            rel="nofollow"
+            target="_blank"
+            title="Share on Facebook"
+            onclick="trackShareCardLink(this.href, 'Facebook'); return false;"
+            class="mdl-menu__item">
+              Facebook
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/intent/tweet?text={{ post.title }}&url={{ site.url }}{{ post.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}"
+            rel="nofollow"
+            target="_blank"
+            title="Share on Twitter"
+            onclick="trackShareCardLink(this.href, 'Twitter'); return false;"
+            class="mdl-menu__item">
+              Twitter
+          </a>
+        </li>
+        <li>
+          <a href="https://plus.google.com/share?url={{ site.url }}{{ post.url }}"
+            rel="nofollow"
+            target="_blank"
+            title="Share on Google+"
+            onclick="trackShareCardLink(this.href, 'Google+'); return false;"
+            class="mdl-menu__item">
+              Google+
+          </a>
+        </li>
+        <li>
+          <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ post.url }}&title={{ post.title }}&summary=&source={{ site.url }}{{ post.url }}"
+            rel="nofollow"
+            target="_blank"
+            title="Share on LinkedIn"
+            onclick="trackShareCardLink(this.href, 'LinkedIn'); return false;"
+            class="mdl-menu__item">
+              LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="mailto:?subject={{ page.title }} - {{ site.title }}&body=I want to share with you {{ page.title }} ({{ site.url }}{{ page.url }}), an article written by {{ site.author }} (@{{ site.twitter_username }})."
+            rel="nofollow"
+            target="_blank"
+            title="Share via Email"
+            onclick="trackShareCardLink(this.href, 'Email'); return false;"
+            class="mdl-menu__item">
+              Email
+          </a>
+        </li>
+      </ul>
       </div>
     </div>
     {% endif %}
@@ -81,11 +175,58 @@ layout: default
         <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-{{ post.id }}">
           <i class="material-icons">share</i>
         </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="post-{{ post.id }}">
-          <li><a href="https://www.facebook.com/dialog/share?app_id={{site.facebook_app_id}}&display=page&href={{ post.url | prepend: site.baseurl }}&redirect_uri={{ site.baseurl }}" class="mdl-menu__item">Facebook</a></li>
-          <li><a href="https://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ post.title }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
-          <li><a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" class="mdl-menu__item">Google+</a></li>
-        </ul>
+      <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn-high-{{ post.id }}">
+        <li>
+          <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ post.url }}"
+            rel="nofollow"
+            target="_blank"
+            title="Share on Facebook"
+            onclick="trackShareCardLink(this.href, 'Facebook'); return false;"
+            class="mdl-menu__item">
+              Facebook
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/intent/tweet?text={{ post.title }}&url={{ site.url }}{{ post.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}"
+            rel="nofollow"
+            target="_blank"
+            title="Share on Twitter"
+            onclick="trackShareCardLink(this.href, 'Twitter'); return false;"
+            class="mdl-menu__item">
+              Twitter
+          </a>
+        </li>
+        <li>
+          <a href="https://plus.google.com/share?url={{ site.url }}{{ post.url }}"
+            rel="nofollow"
+            target="_blank"
+            title="Share on Google+"
+            onclick="trackShareCardLink(this.href, 'Google+'); return false;"
+            class="mdl-menu__item">
+              Google+
+          </a>
+        </li>
+        <li>
+          <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ post.url }}&title={{ post.title }}&summary=&source={{ site.url }}{{ post.url }}"
+            rel="nofollow"
+            target="_blank"
+            title="Share on LinkedIn"
+            onclick="trackShareCardLink(this.href, 'LinkedIn'); return false;"
+            class="mdl-menu__item">
+              LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="mailto:?subject={{ page.title }} - {{ site.title }}&body=I want to share with you {{ page.title }} ({{ site.url }}{{ page.url }}), an article written by {{ site.author }} (@{{ site.twitter_username }})."
+            rel="nofollow"
+            target="_blank"
+            title="Share via Email"
+            onclick="trackShareCardLink(this.href, 'Email'); return false;"
+            class="mdl-menu__item">
+              Email
+          </a>
+        </li>
+      </ul>
       </div>
     </div>
 
