@@ -1,19 +1,9 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: 皆の意見交流所公式ブログ
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  皆の意見交流所というサーバーの公式（？）ブログです！
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-facebook_username: jekyll
-google_play: 'GDGX'
-google_plus_com: '109485346959707049693'  # Community link
-google_plus_per: '+GDGManagua'  #Personal link
-facebook_app_id: 12345
+url: "https://linuxcodevserver.github.io/linuxcodevblog" # the base hostname & protocol for your site
 
 # Layout settings
 header_type: default  # values [ drawer, default ]
@@ -22,17 +12,8 @@ pagination_type: default  # values [ ops, default ]
 
 more_vert:
   option1:
-    name: Cool Option 1
-    link: www.myawesomelink.com
-  option2:
-    name: Cool Option 2
-    link: www.myawesomelink.com
-  option3:
-    name: Cool Option 3
-    link: www.myawesomelink.com
-
-disqus: true
-disqus_shortname: 'gdgmanagua'
+    name: 皆の意見交流所公式サイト
+    link: linuxcodevserver.github.io
 
 # Build settings
 markdown: kramdown
