@@ -1,2 +1,6 @@
 # ライセンス
-このブログはCC BY-NC-SA 4.0でライセンスされていますが、Apache Licence 2.0でライセンスされているコードも含まれています。
+このブログは
+<img src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png">
+でライセンスされていますが、
+Apache Licence 2.0
+でライセンスされている部分もあります。
