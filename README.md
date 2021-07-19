@@ -17,6 +17,7 @@ If you are using this cool jekyll theme, please open an issue or fork the projec
 - [siempredelao.github.io](http://siempredelao.github.io/)
 - [sparker0i.github.io](http://sparker0i.github.io/)
 - [kris27mc.github.io](https://kris27mc.github.io)
+- [linuxcodevserver.github.io/linuxcodevblog](https://linuxcodevserver.github.io/linuxcodevblog/)
 
 ## Custom Themes
 
